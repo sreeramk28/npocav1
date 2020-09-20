@@ -1,0 +1,41 @@
+.footeri {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #262e33; 
+	width: 100%; 
+	padding-top: 30px; 
+	padding-bottom: 30px;
+}
+.footer-wrap-style {
+	width: 350px; 
+	padding-right: 10px; 
+	padding-bottom: 20px;
+	border-right: 1px solid #ffc13b;
+}
+.footer-text {
+	font-size: 12px; 
+	color: #fff; 
+	width: 300px;
+}
+.mail-form {
+	background-color: #ffc13b;
+	width: 200px;
+	height: 300px;
+}
+.mail-form {
+    height: 250px;
+    width: 200px;
+    background: #ffc13b;
+    position: relative;
+}
+
+.mail-form:before {
+    content: '';
+    position: absolute;
+    top: 0; 
+    left: 0;
+    border-top: 30px solid white;
+    border-right: 40px solid #ffc13b;
+    width: 0;
+}

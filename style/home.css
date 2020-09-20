@@ -1,0 +1,218 @@
+.mont-font {
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 600;
+}
+.opensans-font {
+	font-family: 'Open Sans', sans-serif;
+}
+.opensans-font-bold {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;	
+}
+.ftsz-14 {
+	font-size: 14px;
+}
+.home-banner-video {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 53px;
+	height: 50vh;
+	background-image: url("../assets/Asset 19NPOCA Website.png");
+	background-size: cover;
+	background-position: center;	
+}
+/*----*/
+.poster-1 {
+	position: absolute;
+	left: 30px;
+	right: 30px; 
+	top: 80%;
+	box-shadow: -3px 3px 8px 4px #BEBDB8; 
+}
+.mission-wrapper {
+	margin-left: 30px;
+}
+.mission-wrapper-2 {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+@media only screen and (min-width: 768px) {
+	.poster-1 {
+		left: 100px;
+		right: 100px;  
+	}
+}
+.opening-box {
+	background-color: #ffc13b;
+}
+.opening-text {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 30px;
+}
+.pm-0 {
+	padding: 0;
+	margin: 0;
+}
+
+.stat-1 {
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+.stat-desc {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+.info-bit {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.td-1 {
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.stat-container {
+	background-color: #fff;
+}
+@media only screen and (min-width: 768px) {
+	.stat-container {
+		background-color: #fff; 
+		height: 100%;
+	}
+}
+@media only screen and (min-width: 576px) {
+	.col-border-left-gray {
+		border-left: 1px solid gray;
+	}
+	.row-border-bottom-gray {
+		border-bottom: 1px solid gray;
+	}
+}
+p {
+	margin-bottom: 2px;
+}
+img {
+	margin-bottom: 5px;
+}
+/*---*/
+.remaining-wrapper {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.services-or-process {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+@media only screen and (min-width: 768px) {
+	.remaining-wrapper {
+		margin-left: 100px;
+		margin-right: 100px;
+	}	
+	.mission-wrapper {
+		margin-left: 100px;
+	}
+	.mission-wrapper-2 {
+		margin-left: 30px;
+		margin-right: 100px;
+	}
+}
+.services-box-shadow {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 2px 5px 5px #d3d3d3;
+	margin: 10px;
+	height: 200px;
+	width: 200px;
+	padding: 10px;
+}
+.service-boxes {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.process-circles {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.line {
+	width: 45px;
+	border-top: 1px solid #000;
+	margin-top: 25px;
+}
+.line-down-facing {
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
+.arrow {
+	border: solid black;
+	border-width: 0 1px 1px 0;
+	display: inline-block;
+	padding: 3px;
+	margin-top: 13px;
+	margin-bottom: 8px;
+}
+.arrow-left-facing {
+	transform: rotate(-45deg);
+}
+.arrow-down-facing {
+	transform: rotate(45deg);
+}
+.circle-out {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	height: 155px;
+	width: 155px;
+	background-color: #BEBDB8;
+	border: 9px solid #f2f2f2;
+	border-radius: 100%;
+	box-shadow: 0 0 0 2px #BEBDB8;
+}
+.circle-out:hover {
+	box-shadow: 0 0 0 4px #ffc13b;
+}
+.circle-desc {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	max-width: 155px;
+	margin-top: 3px;
+}
+.number-circle {
+	height: 25px;
+	width: 25px;
+	background-color: #ffc13b;
+	border-radius: 100%;
+	margin-bottom: -11px;
+}
+@media only screen and (min-width: 768px) {
+	.process-circles {
+		flex-direction: row;
+		justify-content: center;
+	}
+	.arrow {
+		margin-top: -20px;
+		margin-right: 15px;
+		margin-left: -8px;
+		margin-bottom: 1px;
+	}
+	.line {
+		margin-top: -20px;
+		margin-left: 15px;
+		margin-bottom: 1px;
+	}
+}	
+.ul {
+	
+}
