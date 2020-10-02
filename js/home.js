@@ -17,7 +17,10 @@ $(document).ready(function() {
 		//alert("ok");
 		var poster = document.getElementById("poster-1");
 		var remain = document.getElementById("remaining-wrapper");
-		remain.style.marginTop = poster.offsetHeight + "px";
+		var h = parseInt(poster.offsetHeight);
+		h -= 0.15*h;
+		//alert(h);
+		remain.style.marginTop = h.toString() + "px";
 	}
 	setMargin();
 	rotations();

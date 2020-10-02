@@ -6,7 +6,7 @@
 	<?php require_once("includes/bootstrap4.php"); ?>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
 	<link href="style/navbar.css" rel="stylesheet">
 	<link href="style/home.css" rel="stylesheet">
 	<link href="style/footer.css" rel="stylesheet">
@@ -19,13 +19,13 @@
 		<div class="poster-1" id="poster-1">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-12 col-md-5 pm-0" >
+					<div class="col-12 col-lg-5 pm-0" >
 						<div class="opening-box">
 							
 							<div class="opening-text">
 							<p class="mont-font" style="font-size: 18px;">Career Guidance</p>
-							The decisions young people take on their life at school affect not just their academic performance, higher education, or employment, but also their social lives, finances, and health outcomes.<br>
-							Schools are perfectly suited to prepare students for their future career pursuits. This includes developing curricula to improve the skills of students, supporting the interests and aspirations of students, and encouraging them to make informed decisions on their areas of study and career pathways.
+							<span>The decisions young people take on their life at school affect not just their academic performance, higher education, or employment, but also their social lives, finances, and health outcomes.<br><br>
+							Schools are perfectly suited to prepare students for their future career pursuits. This includes developing curricula to improve the skills of students, supporting the interests and aspirations of students.</span>
 							<br><br>
 							<a>
 								<img src="assets/Asset 20NPOCA Website.png" width="160" height="40">
@@ -34,7 +34,7 @@
 							
 						</div>
 					</div>
-					<div class="col-12 col-md-7 pm-0">
+					<div class="col-12 col-lg-7 pm-0">
 						<div class="container-fluid stat-container">
 							<div class="row row-border-bottom-gray" style="height: 50%;">
 								<div class="col-sm-6" style="height: 100%;">
@@ -45,7 +45,7 @@
 													<img src="assets/Asset 4NPOCA Website.png" height="50" width="50">
 												</td>
 												<td class="td-1">
-													<p class="stat-1">500+</p>
+													<p class="stat-1 mont-font">500+</p>
 													<p class="stat-desc">Participating Schools</p>
 												</td>
 											</tr>
@@ -60,7 +60,7 @@
 													<img src="assets/Asset 5NPOCA Website.png" height="50" width="50">
 												</td>
 												<td class="td-1">
-													<p class="stat-1">25+</p>
+													<p class="stat-1 mont-font">25+</p>
 													<p class="stat-desc">Exceptional Speakers</p>
 												</td>
 											</tr>
@@ -77,7 +77,7 @@
 													<img src="assets/Asset 6NPOCA Website.png" height="50" width="50">
 												</td>
 												<td class="td-1">
-													<p class="stat-1">7+</p>
+													<p class="stat-1 mont-font">7+</p>
 													<p class="stat-desc">Countries</p>
 												</td>
 											</tr>
@@ -92,7 +92,7 @@
 													<img src="assets/Asset 7NPOCA Website.png" height="50" width="50">
 												</td>
 												<td class="td-1">
-													<p class="stat-1">13000+</p>
+													<p class="stat-1 mont-font">13000+</p>
 													<p class="stat-desc">Students Benefited</p>
 												</td>
 											</tr>
@@ -240,7 +240,8 @@
 		</div>
 		<br><br>
 	</div>
-	<?php require_once("includes/footer.php") ?>
-	
+	<!-- dummy footer -->
+	<div style="height: 200px; background-color: #000;">
+	<!-- footer -->
 </body>
 </html>

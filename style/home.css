@@ -18,7 +18,7 @@
 	flex-direction: row;
 	justify-content: center;
 	margin-top: 53px;
-	height: 50vh;
+	height: 75vh;
 	background-image: url("../assets/Asset 19NPOCA Website.png");
 	background-size: cover;
 	background-position: center;	
@@ -26,10 +26,10 @@
 /*----*/
 .poster-1 {
 	position: absolute;
-	left: 30px;
-	right: 30px; 
-	top: 80%;
-	box-shadow: -3px 3px 8px 4px #BEBDB8; 
+	left: 60px;
+	right: 60px; 
+	top: 65%;
+	box-shadow: -3px 3px 8px 4px #969696; 
 }
 .mission-wrapper {
 	margin-left: 30px;
@@ -40,8 +40,14 @@
 }
 @media only screen and (min-width: 768px) {
 	.poster-1 {
-		left: 100px;
-		right: 100px;  
+		left: 160px;
+		right: 160px;  
+	}
+}
+@media only screen and (min-width: 1184px) {
+	.poster-1 {
+		left: 260px;
+		right: 260px;  
 	}
 }
 .opening-box {
@@ -110,17 +116,31 @@ img {
 }
 @media only screen and (min-width: 768px) {
 	.remaining-wrapper {
-		margin-left: 100px;
-		margin-right: 100px;
+		margin-left: 90px;
+		margin-right: 90px;
 	}	
 	.mission-wrapper {
-		margin-left: 100px;
+		margin-left: 90px;
 	}
 	.mission-wrapper-2 {
 		margin-left: 30px;
-		margin-right: 100px;
+		margin-right: 90px;
 	}
 }
+@media only screen and (min-width: 1184px) {
+	.remaining-wrapper {
+		margin-left: 190px;
+		margin-right: 190px;
+	}	
+	.mission-wrapper {
+		margin-left: 190px;
+	}
+	.mission-wrapper-2 {
+		margin-left: 30px;
+		margin-right: 190px;
+	}
+}
+
 .services-box-shadow {
 	display: flex;
 	flex-direction: column;
@@ -215,4 +235,10 @@ img {
 }	
 .ul {
 	
+}
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+	.info-bit {
+		padding: 25px 0;	
+	}
+
 }
