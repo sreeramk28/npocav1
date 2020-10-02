@@ -1,0 +1,87 @@
+.contact-page-wrapper {
+	margin: 53px 30px 0 30px;
+}
+.contactus-heading {
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+.opensans-font {
+	font-family: 'Open Sans', sans-serif;
+}
+.mont-font {
+	font-family: 'Montserrat', sans-serif;
+}
+.mont-font-bold {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+.mont-font-medium {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.opensans-font-semi-bold {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.ftsz-14 {
+	font-size: 14px;
+}
+.ftsz-13 {
+	font-size: 13px;
+}
+.ftsz-12 {
+	font-size: 12px;
+}
+.contact-boxes-wrap {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.contact-box {
+	height: 220px;
+	width: 220px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	margin: 20px;
+	box-shadow: 3px 3px 5px 2px #d3d3d3;
+}
+.pdr-10 {
+	padding-right: 10px;
+}
+.contact-box > img {
+	margin-bottom: 10px;
+}
+.contact-box > p {
+	margin-bottom: 8px;
+}
+.contact-box td {
+	padding-bottom: 10px;
+}
+.orangish {
+	color: #FFA33E;
+}
+.join-button {
+	display: flex;
+	border: 0;
+	background-color: #FFC13B;
+	justify-content: center;
+	padding: 10px 23px;
+	outline: none;
+}
+.itrst {
+	margin: 10px;
+}
+@media only screen and (min-width: 768px) {
+	.contact-page-wrapper {
+		margin: 53px 90px 0 90px;
+	}		
+}
+@media only screen and (min-width: 1184px) {
+	.contact-page-wrapper {
+		margin: 53px 190px 0 190px;
+	}		
+}

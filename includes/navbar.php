@@ -8,11 +8,11 @@
 		</button>
 		
 		<ul class="nav-ul">
-			<li> <a> Home </a></li>
-			<li> <a> Sessions </a> </li>
-			<li> <a> Speakers </a> </li> 
-			<li> <a> Career Info </a> </li> 
-			<li> <a> Contact Us </a> </li> 
+			<li> <a href="index.php"> Home </a></li>
+			<li> <a href="#"> Sessions </a> </li>
+			<li> <a href="about.php"> About Us </a> </li> 
+			<li> <a href="#"> Career Info </a> </li> 
+			<li> <a href="contact.php"> Contact Us </a> </li> 
 			
 		</ul>
 		

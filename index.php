@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>NPOCA</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php require_once("includes/bootstrap4.php"); ?>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -241,7 +241,7 @@
 		<br><br>
 	</div>
 	<!-- dummy footer -->
-	<div style="height: 200px; background-color: #000;">
+	<div style="height: 200px; background-color: #262e33;">
 	<!-- footer -->
 </body>
 </html>
