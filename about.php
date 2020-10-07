@@ -29,8 +29,11 @@
 					<p class="small-heading">
 						About us
 					</p>
-					<p class="opensans-font">
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.	
+					<p class="opensans-font ftsz-14">
+						We are a social initiative focused on mainstreaming Career Education & Guidance in the school curriculum. <br><br>
+At NPOCA , we are attempting to build a comprehensive career services for school students, which would help them identify their talent, explore opportunities and make informed career decisions using the best resource available globally.
+<br><br>
+This in our view would help youth stay focused and motivated, improve academic performance and address the issue of underemployment and unemployability.	
 					</p>
 				</div>
 			</div>
@@ -40,12 +43,13 @@
 			<p class="mission-heading text-center">
 				Our Mission
 			</p>
-			<div class="text-center opensans-font ftsz-14">
-				Make career education accessible to a million students by 2022.
-				Lorem ipsum dolor sit amet, consectetur 
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.
+			<div class="opensans-font ftsz-14" style="display: flex; flex-direction: column;justify-content: center; align-items: center;">
+				Make career education accessible to a million students by 2022 through:
+				<ul>
+					<li>Career Guidance Services</li>
+					<li>Academic Research</li>
+					<li>Advocacy</li>
+				</ul>
 			</div>
 			<br>
 			<div class="mission-boxes-wrap">

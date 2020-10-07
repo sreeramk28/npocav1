@@ -61,8 +61,17 @@
 .contact-box td {
 	padding-bottom: 10px;
 }
-.orangish {
+.orangish:link {
 	color: #FFA33E;
+}
+.orangish:visited {
+	color: #FFA33E;
+}
+.orangish:hover {
+	color: #FFA33E;
+}
+.orangish:active {
+	color: #FFC13B;
 }
 .join-button {
 	display: flex;

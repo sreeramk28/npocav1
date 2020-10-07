@@ -19,8 +19,8 @@
 			<p class="contactus-heading text-center">
 				Contact Us
 			</p>
-			<div class="text-center opensans-fontftsz-14">
-				Make career education accessible to a million students by 2022.
+			<div class="text-center opensans-font ftsz-14">
+				Collaborate
 				Lorem ipsum dolor sit amet, consectetur 
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -37,7 +37,7 @@
 							</td>
 							<td>
 								<span class="opensans-font-semi-bold ftsz-12">
-									NPOCA Towers, Humayun's Tomb, New Delhi
+									Eldeco Aamantran, Sector 119, Noida, Uttar Pradesh, India
 								</span>
 							</td>
 						</tr>
@@ -46,7 +46,7 @@
 								<img src="assets/contact-page/phone.svg" height="20" width="20">
 							</td>
 							<td>
-								<span class="opensans-font-semi-bold ftsz-12"> 98766879097 </span>
+								<span class="opensans-font-semi-bold ftsz-12"> +91 85880 13322 </span>
 							</td>
 						</tr>
 					</table>
@@ -60,7 +60,7 @@
 							</td>
 							<td>
 								<span class="opensans-font-semi-bold ftsz-12 orangish">
-									sdxjkz@shcbj.com<br>
+									<a href="mailto:sambhav@npoca.com" class="orangish">sambhav@npoca.com</a><br>
 								</span>
 								<span class="opensans-font-semi-bold ftsz-12" style="color: #d3d3d3">
 									(For teachers only)
@@ -72,8 +72,8 @@
 								<img src="assets/contact-page/mail.svg" height="20" width="20">
 							</td>
 							<td>
-								<span class="opensans-font-semi-bold ftsz-12 orangish"> 
-									sdxjkz@shcbj.com 
+								<span class="opensans-font-semi-bold ftsz-12"> 
+									<a href="mailto:arun@npoca.com" class="orangish">arun@npoca.com</a>
 								</span>
 							</td>
 						</tr>

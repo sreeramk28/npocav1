@@ -1,0 +1,105 @@
+.sessions-page-wrapper {
+	margin: 53px 30px 0 30px;
+}
+@media only screen and (min-width: 768px) {
+	.sessions-page-wrapper {
+		margin: 53px 90px 0 90px;
+	}		
+}
+@media only screen and (min-width: 1184px) {
+	.sessions-page-wrapper {
+		margin: 53px 190px 0 190px;
+	}		
+}
+.sessions-heading {
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+.sessions-boxes-wrap {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.session-box {
+	position: relative;
+	width: 270px;
+	height: 480px;
+	margin: 10px;
+	box-shadow: 2px 4px 7px 1px #d3d3d3;
+}
+.title-box {
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	height: 80px;
+	background-color: #394044;
+	padding: 0 16px;
+}
+.author-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 120px;
+	padding: 8px 16px;
+}
+.time-box {
+	display: flex;
+	justify-content: space-around;
+	height: 30px;
+	background-color: #394044;
+}
+.the-date {
+	color: #fff;
+	font-size: 13px;
+}
+.title-box > p {
+	margin-bottom: 0;
+}
+.opensans-font {
+	font-family: 'Open Sans', sans-serif;
+}
+.mont-font {
+	font-family: 'Montserrat', sans-serif;
+}
+.mont-font-bold {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+.mont-font-medium {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.opensans-font-semi-bold {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.ftsz-14 {
+	font-size: 14px;
+}
+.ftsz-13 {
+	font-size: 13px;
+}
+.button-1 {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	border: 0;
+	background-color: #FFC13B;
+	outline: none;
+	padding: 10px 0;
+	text-decoration: none;
+}
+.button-1:hover {
+	text-decoration: none;
+	opacity: 0.9;
+}
+.button-text-1 {
+	color: #000;
+}
+.title {
+	color: #FFA33E;
+}
+.description-box {
+	padding: 8px 16px;
+}

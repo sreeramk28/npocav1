@@ -4,6 +4,7 @@
 	<title>NPOCA</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php require_once("includes/bootstrap4.php"); ?>
+	<link rel="icon" type="image/jpeg" href="assets/favi.jpeg"/>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
@@ -110,12 +111,12 @@
 		<div class="services-or-process">
 			<p class="text-center mont-font" style="font-size: 18px;"> Our Services </p>
 			<p class="text-center opensans-font" style="font-size: 14px;"> 
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				At NPOCA, we are attempting to build comprehensive career services for school students, which would help them identify their talent, explore opportunities and make informed career decisions using the best resource available globally.
+				We enable schools in setting-up, Career Development Center, a resource center fully equipped to support our youths' transition from school to Higher Education and or Work. <br>
+				Our focus areas are, <span style="color: #1b2f3f; font-weight:700;font-style: italic;">Career Guidance Services, Academic Research, Advocacy. 
+				</span>
+				We are on a mission mode to impact a million individuals by 2022.
+
 			</p>
 		</div>
 		<br />
@@ -124,14 +125,14 @@
 				<img src="assets/Asset 8NPOCA Website.png" height="50" width="50">
 				<p class="mont-font text-center">Career Guidance</p>
 				<p class="ftsz-14 opensans-font text-center">
-					Lorem ipsum dolor sit amet
+					Year long services for career selection & planning
 				</p> 
 			</div>
 			<div class="services-box-shadow">
 				<img src="assets/Asset 9NPOCA Website.png" height="50" width="50">
 				<p class="mont-font text-center">Advocacy</p>
 				<p class="ftsz-14 opensans-font text-center">
-					Lorem ipsum dolor sit amet
+					Building consensus on practices and policy around Career Education
 				</p>
 			</div>
 			<div class="services-box-shadow">
@@ -139,14 +140,14 @@
 
 				<p class="mont-font text-center">Research</p>
 				<p class="ftsz-14 opensans-font text-center">
-					Lorem ipsum dolor sit amet
+					Driving decisions based on data
 				</p>
 			</div>
 			<div class="services-box-shadow">
 				<img src="assets/Asset 11NPOCA Website.png" height="50" width="50">
 				<p class="mont-font text-center">Training</p>
 				<p class="ftsz-14 opensans-font text-center">
-					Lorem ipsum dolor sit amet
+					Finest trainers developing next-gen career professionals 
 				</p>
 			</div>
 
