@@ -86,7 +86,7 @@ This in our view would help youth stay focused and motivated, improve academic p
 	</div>
 	<br><br>
 	<!-- dummy footer -->
-	<div style="height: 200px; background-color: #262e33;">
+	<?php require_once("includes/footer.php") ?>
 	<!-- footer -->
 </body>
 </html>

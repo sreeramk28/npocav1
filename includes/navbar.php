@@ -1,7 +1,7 @@
 <nav>
 	<div class="nav-contents">
 		<div>
-			<a href="index.php"><img src="assets/mlogo.jpeg" height="50" width="120"></a>
+			<a href="index.php"><img src="assets/NPOCALogo1.png" height="60" width="110"></a>
 		</div>
 		<button class="hamburger">
 			<img height="25" width="25" src="assets/hamburger.png">

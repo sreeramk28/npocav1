@@ -112,7 +112,7 @@
 	</div>
 	<br><br>
 	<!-- dummy footer -->
-	<div style="height: 200px; background-color: #262e33;">
+	<?php require_once("includes/footer.php") ?>
 	<!-- footer -->
 </body>
 </html>
