@@ -240,7 +240,29 @@
 			</div>
 		</div>
 		<br><br>
+		<div class="mail-form-main-wrap">
+			
+			<div class="mail-form-main show-form-main">
+				<div class="inner-div" style="padding-top: 35px">
+					<span class="mont-font">JOIN OUR MAIL LIST</span>
+					<span class="opensans-font text-center px-2" style="font-weight: 400; font-size: 13px;">Subscribe our channel to get latest update on careers, exams and many more</span>
+				</div>
+
+				<form style="padding-left: 35px; padding-right: 35px;">
+					<input type="text" name="pname" placeholder="Your Name" required="true"><br>
+					<input type="email" name="pemail" placeholder="Email Id" required="true"><br>
+					<input type="text" name="pwho" placeholder="You are" required="true"><br>
+					<button type="button" class="mf-but" style="margin-left: 55px; margin-right: 55px;">
+						<span class="opensans-font" style="color: #fff; font-size: 13px;">Submit</span>
+					</button>
+				</form>
+				<p class="opensans-font text-center px-1" style="font-size: 13px;"> Whatsapp users, if you would like to join our broadcasters list</p>
+			</div>
+		</div>
+		<br><br>
 	</div>
+
+	
 	<!-- dummy footer -->
 	<?php require_once("includes/footer.php") ?>
 	<!-- footer -->

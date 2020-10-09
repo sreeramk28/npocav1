@@ -60,16 +60,7 @@ nav {
 .hamburger:focus {
 	border: 0;
 }
-a:link {
-	text-decoration: none;
-}
-a:visited {
-	color: #000;
-}
-a:hover {
-	text-decoration: underline;
-	cursor: pointer;
-}
+
 .soc-icon {
 	background-color: #1b2f3f;
 }
@@ -94,5 +85,7 @@ a:hover {
 		margin: 0 190px;
 	}
 }
-
+p {
+	margin-bottom: 5px;
+}
 /* desktop */

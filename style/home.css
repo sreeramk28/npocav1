@@ -98,9 +98,6 @@
 		border-bottom: 1px solid gray;
 	}
 }
-p {
-	margin-bottom: 2px;
-}
 img {
 	margin-bottom: 5px;
 }
@@ -241,4 +238,32 @@ img {
 		padding: 25px 0;	
 	}
 
+}
+.mail-form-main-wrap {
+	display: flex;
+	justify-content: center;
+}
+.mail-form-main {
+	position: relative;
+	background-color: #ffc13b;
+	width: 250px;
+	height: 350px;
+}
+.mail-form-main:before {
+    content: '';
+    position: absolute;
+    top: 0; 
+    left: 0;
+    border-top: 35px solid white;
+    border-right: 45px solid #ffc13b;;
+    width: 0;
+}
+.show-form-main {
+	display: block;
+}
+
+@media only screen and (min-width: 992px) {
+	.show-form-main {
+		display: none;
+	}
 }
