@@ -86,7 +86,7 @@ This in our view would help youth stay focused and motivated, improve academic p
 	</div>
 	<br><br>
 	<!-- dummy footer -->
-	<?php require_once("includes/footer.php") ?>
+	<?php require_once("includes/footersmall.php") ?>
 	<!-- footer -->
 </body>
 </html>
