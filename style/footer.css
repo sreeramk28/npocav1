@@ -45,7 +45,7 @@ ul {
 	margin: 0 30px;
 	display: flex;
 	justify-content: space-between;
-	
+	flex-wrap: wrap;
 }
 @media only screen and (min-width: 768px) {
 	.footer-wrapper {
@@ -76,6 +76,10 @@ input {
 	border: 1px solid #f5f5f5;
 	margin-top: 10px;
 	background-color: #f5f5f5;
+
+}
+.mform > * {
+	min-width: 0;
 }
 .mf-but {
 	border: 0;
@@ -104,7 +108,8 @@ input {
 .bottom-footer-wrap {
 	display: flex;
 	align-items: center;
-	height: 40px; 
+	
+	min-height: 40px; 
 	width: 100%; 
 	background-color: #394044;
 }

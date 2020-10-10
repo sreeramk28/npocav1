@@ -248,7 +248,7 @@
 					<span class="opensans-font text-center px-2" style="font-weight: 400; font-size: 13px;">Subscribe our channel to get latest update on careers, exams and many more</span>
 				</div>
 
-				<form style="padding-left: 35px; padding-right: 35px;">
+				<form class="mform-main" style="padding-left: 35px; padding-right: 35px;">
 					<input type="text" name="pname" placeholder="Your Name" required="true"><br>
 					<input type="email" name="pemail" placeholder="Email Id" required="true"><br>
 					<input type="text" name="pwho" placeholder="You are" required="true"><br>
