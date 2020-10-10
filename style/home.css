@@ -255,11 +255,16 @@ img {
     top: 0; 
     left: 0;
     border-top: 35px solid white;
-    border-right: 45px solid #ffc13b;;
+    border-right: 45px solid #ffc13b;
     width: 0;
 }
 .show-form-main {
 	display: block;
+}
+.mform-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .mform-main > * {
 	min-width: 0;

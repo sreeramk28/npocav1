@@ -78,6 +78,11 @@ input {
 	background-color: #f5f5f5;
 
 }
+.mform {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .mform > * {
 	min-width: 0;
 }
@@ -108,8 +113,12 @@ input {
 .bottom-footer-wrap {
 	display: flex;
 	align-items: center;
-	
+
 	min-height: 40px; 
 	width: 100%; 
 	background-color: #394044;
+}
+.mont-font {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
 }

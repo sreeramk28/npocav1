@@ -248,11 +248,11 @@
 					<span class="opensans-font text-center px-2" style="font-weight: 400; font-size: 13px;">Subscribe our channel to get latest update on careers, exams and many more</span>
 				</div>
 
-				<form class="mform-main" style="padding-left: 35px; padding-right: 35px;">
-					<input type="text" name="pname" placeholder="Your Name" required="true"><br>
-					<input type="email" name="pemail" placeholder="Email Id" required="true"><br>
-					<input type="text" name="pwho" placeholder="You are" required="true"><br>
-					<button type="button" class="mf-but" style="margin-left: 55px; margin-right: 55px;">
+				<form class="mform-main">
+					<input type="text" name="pname" placeholder="Your Name" required="true">
+					<input type="email" name="pemail" placeholder="Email Id" required="true">
+					<input type="text" name="pwho" placeholder="You are" required="true">
+					<button type="button" class="mf-but">
 						<span class="opensans-font" style="color: #fff; font-size: 13px;">Submit</span>
 					</button>
 				</form>

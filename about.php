@@ -39,7 +39,7 @@ This in our view would help youth stay focused and motivated, improve academic p
 			</div>
 		</div>
 		<br>
-		<div class="mission">
+		<div id="mission" class="mission" style="padding-top: 66px;">
 			<p class="mission-heading text-center">
 				Our Mission
 			</p>
