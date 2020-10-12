@@ -15,21 +15,16 @@ class Dbce
 	/* ************Production **very crucial** ************** */
 	
 	private $dburl = parse_url(getenv("DATABASE_URL"));
-	private $servername = $this->dburl["host"];
-	private $portnum = $this->dburl["port"];
-	private $dbusername = $this->dburl["user"];
-	private $dbpassword = $this->dburl["pass"];
-	private $dbname = ltrim($this->dburl["path"], "/");
     
 	protected function connect() {
 		
 		$dsn = 'pgsql:' . sprintf(
     		"host=%s;port=%s;user=%s;password=%s;dbname=%s",
-    		$this->servername,
-    		$this->portnum,
-    		$this->dbusername,
-    		$this->dbpassword,
-    		$this->dbname
+    		$this->dburl["host"],
+    		$this->dburl["port"],
+    		$this->dburl["user"],
+    		$this->dburl["pass"],
+    		ltrim($this->dburl["path"], "/")
 		);
 		try {
 			$pdo = new PDO($dsn);
