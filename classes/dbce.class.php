@@ -4,22 +4,33 @@
  */
 class Dbce 
 {
-	//Development
-	private $servername = "localhost";
+	/* ************ Development ************** */
+	
+	/*private $servername = "localhost";
+	private $portnum = "5432";
 	private $dbusername = "postgres";
 	private $dbpassword = "lqSPg28!";
-	private $dbname = "npocadb";
+	private $dbname = "npocadb";*/
 
-	//Production
-	// private $servername = "sql12.freemysqlhosting.net";
-	// private $dbusername = "sql12353920";
-	// private $dbpassword = "1UmkdelB5l";
-	// private $dbname = "sql12353920";
+	/* ************Production **very crucial** ************** */
+	
+	private $dburl = parse_url(getenv("DATABASE_URL"));
+	private $servername = $dburl["host"];
+	private $portnum = $dburl["port"];
+	private $dbusername = $dburl["user"];
+	private $dbpassword = $dburl["pass"];
+	private $dbname = ltrim($dburl["path"], "/");
 	
 
 	protected function connect() {
-
-		$dsn = 'pgsql:host='. $this->servername . ';port=5432;dbname=' . $this->dbname . ';user=' . $this->dbusername . ';password=' . $this->dbpassword;
+		$dsn = 'pgsql:' . sprintf(
+    		"host=%s;port=%s;user=%s;password=%s;dbname=%s",
+    		$this->servername,
+    		$this->portnum,
+    		$this->dbusername,
+    		$this->dbpassword,
+    		$this->dbname
+		);
 		try {
 			$pdo = new PDO($dsn);
 			$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

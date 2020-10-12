@@ -6,7 +6,7 @@ class WebinarsView extends WebinarsModel {
 		$res = $this->getWebinars();
 		$n = count($res);
 		//$idx = 0;
-
+		
 		//echo "<title>".$res[0]['shn_title']."</title>";
 		//echo "<title>".$res[1]['shn_title']."</title>";
 		echo '<?xml version="1.0" encoding="ISO-8859-1"?><webinar>';

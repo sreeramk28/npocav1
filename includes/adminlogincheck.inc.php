@@ -1,18 +1,30 @@
 <?php
 session_start();
-//Development
-$servername = "localhost";
+/* ************ Development ************** */
+
+/*$servername = "localhost";
+$portnum = "5432";
 $dbusername = "postgres";
 $dbpassword = "lqSPg28!";
-$dbname = "npocadb";
+$dbname = "npocadb";*/
 
-//Production
-// $servername = "sql12.freemysqlhosting.net";
-// $dbusername = "sql12353920";
-// $dbpassword = "1UmkdelB5l";
-// $dbname = "sql12353920";
+/* ************Production **very crucial** ************** */
 
-$dsn = 'pgsql:host='. $servername . ';port=5432;dbname=' . $dbname . ';user=' . $dbusername . ';password=' . $dbpassword;
+$dburl = parse_url(getenv("DATABASE_URL"));
+$servername = $dburl["host"];
+$portnum = $dburl["port"];
+$dbusername = $dburl["user"];
+$dbpassword = $dburl["pass"];
+$dbname = ltrim($dburl["path"], "/");
+
+$dsn = 'pgsql:' . sprintf(
+	"host=%s;port=%s;user=%s;password=%s;dbname=%s",
+	$servername,
+	$portnum,
+	$dbusername,
+	$dbpassword,
+	$dbname
+);
 
 $username = $_POST['admin_username'];
 $password = $_POST['admin_password'];

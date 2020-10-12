@@ -20,6 +20,12 @@ $(document).ready(function() {
 			
 			//alert(scontainer);
 			var result = doc.responseXML;
+			if(result == null) {
+				$("#sessions-boxes-wrap").append("<div id='no-sesh'></div>");
+				$('#no-sesh').css({"width":"250px", "height":"400px", "box-shadow": "3px 5px 15px #d3d3d3"});
+				$('#no-sesh').append("<p class='opensans-font text-center' style='margin-top: 170px'>Please stay tuned for more sessions!</p>");
+				return;
+			}
 			var title = result.getElementsByTagName("title"); 
 			var speakers = result.getElementsByTagName("speakers");
 			var description = result.getElementsByTagName("description");
@@ -28,7 +34,14 @@ $(document).ready(function() {
 			var type = result.getElementsByTagName("type");
 			var link = result.getElementsByTagName("link");
 			var n = title.length; //number of sessions
-
+			//alert(n);
+			if(n == 0) {
+				$("#sessions-boxes-wrap").append("<div id='no-sesh'></div>");
+				$('#no-sesh').css({"width":"250px", "height":"400px", "box-shadow": "3px 5px 15px #d3d3d3"});
+				$('#no-sesh').append("<p class='opensans-font text-center' style='margin-top: 170px'>Please stay tuned for more sessions!</p>");
+				return;
+				
+			}
 			//alert(pluck(title[0]));
 			for (var i = 0; i < n; i++) {
 				/* creating document tree nodes breadth-wise */
