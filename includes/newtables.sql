@@ -14,4 +14,3 @@ create table npocaadmins (
 	username varchar(50),
 	password varchar(50)
 );
-insert into npocaadmins (username, password) values ("admin1", "arun01!");
