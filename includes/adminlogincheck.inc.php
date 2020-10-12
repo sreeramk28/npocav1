@@ -2,8 +2,8 @@
 session_start();
 //Development
 $servername = "localhost";
-$dbusername = "root";
-$dbpassword = "";
+$dbusername = "postgres";
+$dbpassword = "lqSPg28!";
 $dbname = "npocadb";
 
 //Production
@@ -12,7 +12,7 @@ $dbname = "npocadb";
 // $dbpassword = "1UmkdelB5l";
 // $dbname = "sql12353920";
 
-$dsn = 'mysql:host='. $servername . ';dbname=' . $dbname;
+$dsn = 'pgsql:host='. $servername . ';port=5432;dbname=' . $dbname . ';user=' . $dbusername . ';password=' . $dbpassword;
 
 $username = $_POST['admin_username'];
 $password = $_POST['admin_password'];
@@ -23,7 +23,7 @@ if(!isset($username) || !isset($password) || empty($username) || empty($password
 	exit();
 }
 try {
-	$conn = new PDO($dsn, $dbusername, $dbpassword);
+	$conn = new PDO($dsn);
 	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	$sql = "select * from npocaadmins where username = ? and password = ?";
 	$stmt = $conn->prepare($sql);
@@ -46,4 +46,5 @@ try {
 }
 catch(PDOException $e) {
   	echo "Connection failed: " . $e->getMessage();
+  	exit();
 }

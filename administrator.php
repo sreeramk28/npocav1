@@ -22,90 +22,20 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 	<title>Admin Page</title>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#speaker_count').change(function() {
-
-				var cnt = parseInt($(this).val(), 10);
-				$('.hider').remove();
-				//alert(cnt);
-				
-				$('#speakers_control').append('<div class="hider form-group"></div>');
-				for(var i = 0; i < cnt; i++) {
-
-					$('.hider').append('<input type="text" class="form-control" name="speaker_name[]" placeholder="Name ' + (i+1) + '" maxlength="25" required>');
-					$('.hider').append('<p></p><input type="text" class="form-control" name="speaker_profile[]" placeholder="Profile ' + (i+1) + '" maxlength="25" required><br>');
-				}
-			}); 
-		});
-	</script>
 </head>
 <body>
-	<p class="display-4 text-center">SESSIONS CONTROL</p>
+	<p class="display-4 text-center">ADMIN CONTROL</p>
 
 	<div style="margin-left: 20%; margin-right: 20%;">
-		<a href="includes/adminlogout.inc.php" class="btn btn-sm btn-primary">Logout</a>
+		
 		<?php
-			if(isset($_GET['message']) && $_GET['message'] == 'success') {
-				echo '<span style="padding: 20px; color: green;"> Webinar Added Successfully </span>';
-				
+			if(isset($_GET['message'])) {
+				echo '<p class="display-6" style="padding: 20px; color: green;">' . $_GET['message'] . '</p>';
 			}  
 		?>
-		
-		<br><br>
-		<form id="admin_form" method="POST" action="includes/addwebinar.inc.php">
-			<div class="form-group">
-				<label for="shn_title">Title:</label>
-			<input class="form-control" type="text" name="shn_title" id="shn_title" maxlength="35" required>
-			</div>
-			<div class="form-group">
-				<label for="shn_subtitle">Subtitle:</label>
-				<input class="form-control" type="text" name="shn_subtitle" id="shn_subtitle" required>
-			</div>
-			<div class="form-group">
-				<label for="speaker_count">Number of speakers:</label>
-				<select class="form-control" id="speaker_count" name="speaker_count" required>
-					<option value="">Select number</option> 
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-				</select>
-			</div>
-			<div id="speakers_control"></div>
-			<div class="form-group">
-				<label for="shn_description">Session Description:</label>
-				<textarea id="shn_description" class="form-control" name="shn_description" maxlength="200" required></textarea>
-			</div>
-			<div class="form-group">
-				<label for="shn_date">Session Date:</label>
-				<input id="shn_date" class="form-control" type="date" name="shn_date" required>
-			</div>
-			<div class="form-group">
-				<label for="shn_time">Session Time:</label>
-				<input id="shn_time" class="form-control" type="time" name="shn_time" required>
-			</div>
-			<div class="form-group">
-				<label for="shn_type">Session Type:</label>
-				<select class="form-control" id="shn_type" name="shn_type" required>
-					<option value="">Select session type</option>
-					<option value="Master Class">Master Class</option>
-					<option value="Individual">Individual</option>
-					<option value="Panel">Panel</option>
-				</select>
-			</div>
-			<div class="form-group">
-				<label for="shn_link">Session Link:</label>
-				<input type="text" name="shn_link" id="shn_link" class="form-control">
-			</div>
-			<div class="form-group">
-				<label for="shn_audience">Recommended for:</label>
-				<input class="form-control" type="text" name="shn_audience" id="shn_audience" required>
-			</div>
-			<div class="form-group">
-				<input type="submit" class="btn btn-primary" value="Submit" required>
-			</div>
-			
-		</form>
+		<a href="includes/adminlogout.inc.php" class="btn btn-lg btn-primary">Logout</a><br><br>
+		<a href="adminaddsession.php" class="btn btn-lg btn-primary">Add a Session</a><br><br>
+		<a href="adminremovesession.php" class="btn btn-lg btn-primary">Delete a Session</a><br><br>
 	</div>
 </body>
 </html>

@@ -138,18 +138,18 @@
 			<div class="services-box-shadow">
 				<img src="assets/Asset 10NPOCA Website.png" height="50" width="50">
 
-				<p class="mont-font text-center">Research</p>
+				<p class="mont-font text-center">Academic Research</p>
 				<p class="ftsz-14 opensans-font text-center">
 					Driving decisions based on data
 				</p>
 			</div>
-			<div class="services-box-shadow">
+			<!-- <div class="services-box-shadow">
 				<img src="assets/Asset 11NPOCA Website.png" height="50" width="50">
 				<p class="mont-font text-center">Training</p>
 				<p class="ftsz-14 opensans-font text-center">
 					Finest trainers developing next-gen career professionals 
 				</p>
-			</div>
+			</div> -->
 
 		</div>
 		<br><br>

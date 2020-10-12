@@ -6,8 +6,8 @@ class Dbce
 {
 	//Development
 	private $servername = "localhost";
-	private $dbusername = "root";
-	private $dbpassword = "";
+	private $dbusername = "postgres";
+	private $dbpassword = "lqSPg28!";
 	private $dbname = "npocadb";
 
 	//Production
@@ -19,15 +19,15 @@ class Dbce
 
 	protected function connect() {
 
-		$dsn = 'mysql:host='. $this->servername . ';dbname=' . $this->dbname;
+		$dsn = 'pgsql:host='. $this->servername . ';port=5432;dbname=' . $this->dbname . ';user=' . $this->dbusername . ';password=' . $this->dbpassword;
 		try {
-			$pdo = new PDO($dsn, $this->dbusername, $this->dbpassword);
+			$pdo = new PDO($dsn);
 			$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-			
 			return $pdo;
 		}
 		catch(PDOException $e) {
   			echo "Connection failed: " . $e->getMessage();
+  			exit();
 		}
 		
 	}

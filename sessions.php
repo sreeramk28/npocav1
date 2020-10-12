@@ -33,6 +33,6 @@
 	<?php require_once("includes/footersmall.php") ?>
 	<!-- footer -->
 
-	<!-- <script type="text/javascript" src="js/sessions.js"></script> -->
+	<script type="text/javascript" src="js/sessions.js"></script>
 </body>
 </html>

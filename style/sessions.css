@@ -40,7 +40,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 120px;
+	height: 100px;
 	padding: 8px 16px;
 }
 .time-box {
@@ -102,4 +102,13 @@
 }
 .description-box {
 	padding: 8px 16px;
+}
+p {
+	overflow-wrap: break-word;
+}
+span {
+	overflow-wrap: break-word;
+}
+div {
+	overflow-wrap: break-word;
 }

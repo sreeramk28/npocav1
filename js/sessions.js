@@ -20,8 +20,7 @@ $(document).ready(function() {
 			
 			//alert(scontainer);
 			var result = doc.responseXML;
-			var title = result.getElementsByTagName("title");
-			var subtitle = result.getElementsByTagName("subtitle"); 
+			var title = result.getElementsByTagName("title"); 
 			var speakers = result.getElementsByTagName("speakers");
 			var description = result.getElementsByTagName("description");
 			var date = result.getElementsByTagName("date");
