@@ -5,7 +5,7 @@
 class Dbce 
 {
 	/* ************ Development ************** */
-	
+
 	/*private $servername = "localhost";
 	private $portnum = "5432";
 	private $dbusername = "postgres";
@@ -15,14 +15,14 @@ class Dbce
 	/* ************Production **very crucial** ************** */
 	
 	private $dburl = parse_url(getenv("DATABASE_URL"));
-	private $servername = $dburl["host"];
-	private $portnum = $dburl["port"];
-	private $dbusername = $dburl["user"];
-	private $dbpassword = $dburl["pass"];
-	private $dbname = ltrim($dburl["path"], "/");
-	
-
+	private $servername = $this->dburl["host"];
+	private $portnum = $this->dburl["port"];
+	private $dbusername = $this->dburl["user"];
+	private $dbpassword = $this->dburl["pass"];
+	private $dbname = ltrim($this->dburl["path"], "/");
+    
 	protected function connect() {
+		
 		$dsn = 'pgsql:' . sprintf(
     		"host=%s;port=%s;user=%s;password=%s;dbname=%s",
     		$this->servername,
