@@ -21,22 +21,41 @@
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	<title>Admin Page</title>
+	<title>View Mail Subs</title>
+	<style type="text/css">
+		#npoca-sessions {
+			border-collapse: collapse;
+		}
+		#npoca-sessions tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+		#npoca-sessions td, #npoca-sessions th {
+  			border: 1px solid #ddd;
+  			padding: 8px;
+		}
+		#npoca-sessions th {
+		  padding-top: 12px;
+		  padding-bottom: 12px;
+		  text-align: left;
+		  background-color: #ffc31b;
+		  color: black;
+		}
+	</style>
 </head>
 <body>
-	<p class="display-4 text-center">ADMIN CONTROL</p>
-
+	<p class="display-4 text-center">VIEW MAIL SUBSCRIBER DETAILS</p>
+	<br><br>
+	<p class="display-6 text-center">Subscribers in the database:</p><br>
 	<div style="margin-left: 20%; margin-right: 20%;">
 		
 		<?php
-			if(isset($_GET['message'])) {
-				echo '<p class="display-6" style="padding: 20px; color: green;">' . $_GET['message'] . '</p>';
-			}  
+			require_once("classes/dbce.class.php");
+			require_once("classes/mailsubsmodel.class.php");
+			require_once("classes/mailsubsview.class.php");
+			$obj = new MailSubsView();
+			$obj->showAllSubscribers();
 		?>
-		<a href="includes/adminlogout.inc.php" class="btn btn-lg btn-primary">Logout</a><br><br>
-		<a href="adminaddsession.php" class="btn btn-lg btn-primary">Add a Session</a><br><br>
-		<a href="adminremovesession.php" class="btn btn-lg btn-primary">Delete a Session</a><br><br><br>
-		<a href="adminviewsubscribers.php" class="btn btn-lg btn-primary">View Mail List Subscribers</a><br><br>
+		
 	</div>
 </body>
 </html>

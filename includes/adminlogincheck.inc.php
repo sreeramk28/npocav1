@@ -2,14 +2,13 @@
 session_start();
 /* ************ Development ************** */
 
-// $servername = "localhost";
-// $portnum = "5432";
-// $dbusername = "postgres";
-// $dbpassword = "lqSPg28!";
-// $dbname = "npocadb";
+/*$servername = "localhost";
+$portnum = "5432";
+$dbusername = "postgres";
+$dbpassword = "lqSPg28!";
+$dbname = "npocadb";*/
 
 /* ************Production **very crucial** ************** */
-
 $dburl = parse_url(getenv("DATABASE_URL"));
 $servername = $dburl["host"];
 $portnum = $dburl["port"];

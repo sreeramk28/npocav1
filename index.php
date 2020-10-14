@@ -248,11 +248,11 @@
 					<span class="opensans-font text-center px-2" style="font-weight: 400; font-size: 13px;">Subscribe our channel to get latest update on careers, exams and many more</span>
 				</div>
 
-				<form class="mform-main">
-					<input type="text" name="pname" placeholder="Your Name" required="true">
-					<input type="email" name="pemail" placeholder="Email Id" required="true">
-					<input type="text" name="pwho" placeholder="You are" required="true">
-					<button type="button" class="mf-but">
+				<form id="mf-2" class="mform-main">
+					<input type="text" name="pname" placeholder="Your Name" required="true" maxlength="40">
+					<input type="email" name="pemail" placeholder="Email Id" required="true" maxlength="50">
+					<input type="text" name="pwho" placeholder="You are" required="true" maxlength="30">
+					<button type="submit" id="mf-btn-2" class="mf-but">
 						<span class="opensans-font" style="color: #fff; font-size: 13px;">Submit</span>
 					</button>
 				</form>
@@ -266,5 +266,6 @@
 	<!-- dummy footer -->
 	<?php require_once("includes/footer.php") ?>
 	<!-- footer -->
+	<script type="text/javascript" src="js/mailform.js"></script>
 </body>
 </html>

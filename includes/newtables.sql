@@ -14,3 +14,9 @@ create table npocaadmins (
 	username varchar(50),
 	password varchar(50)
 );
+
+create table mailsubscribers (
+	sub_name varchar(40),
+	sub_email varchar(50),
+	sub_designation varchar(30)
+);
