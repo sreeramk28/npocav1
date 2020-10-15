@@ -85,7 +85,7 @@
 			</div>
 			<div class="form-group">
 				<label for="shn_link">Session Link:</label>
-				<input type="text" name="shn_link" id="shn_link" class="form-control">
+				<input type="text" name="shn_link" id="shn_link" class="form-control" required>
 			</div>
 			<div class="form-group">
 				<input type="submit" class="btn btn-primary" value="Submit" required>

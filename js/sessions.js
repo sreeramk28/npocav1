@@ -20,6 +20,7 @@ $(document).ready(function() {
 			
 			//alert(scontainer);
 			var result = doc.responseXML;
+			alert(result);
 			if(result == null) {
 				$("#sessions-boxes-wrap").append("<div id='no-sesh'></div>");
 				$('#no-sesh').css({"width":"250px", "height":"400px", "box-shadow": "3px 5px 15px #d3d3d3"});
