@@ -13,7 +13,7 @@
 </head>
 <body>
 	<?php require_once("includes/navbar.php"); ?>
-	<div class="sessions-page-wrapper">
+	<div class="sessions-page-wrapper" style="min-height: 90vh;">
 		<br>
 		<div class="chumma">
 			<p class="sessions-heading text-center">

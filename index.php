@@ -11,12 +11,22 @@
 	<link href="style/navbar.css" rel="stylesheet">
 	<link href="style/home.css" rel="stylesheet">
 	<link href="style/footer.css" rel="stylesheet">
-	<script src="js/navbar.js" type="text/javascript"></script>
-	<script src="js/home.js" type="text/javascript"></script>
+	
+	<style type="text/css">
+
+	</style>
 </head>
 <body>
 	<?php require_once("includes/navbar.php"); ?>
 	<div class="home-banner-video">
+		<div id="vid-container">
+			<video autoplay muted loop style="width: 100%;" id="the-vid">
+				<source src="assets/vidhome.mp4" type="video/mp4">;
+			</video>
+		</div>
+		<!-- <video id="vid-container-2" autoplay muted loop style="max-width: 100%;">
+			<source src="assets/vidhome.mp4" type="video/mp4" id="vidsrc">
+		</video> -->
 		<div class="poster-1" id="poster-1">
 			<div class="container-fluid">
 				<div class="row">
@@ -267,5 +277,7 @@
 	<?php require_once("includes/footer.php") ?>
 	<!-- footer -->
 	<script type="text/javascript" src="js/mailform.js"></script>
+	<script src="js/navbar.js" type="text/javascript"></script>
+	<script src="js/home.js" type="text/javascript"></script>
 </body>
 </html>

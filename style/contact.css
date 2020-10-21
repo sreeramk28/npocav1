@@ -76,10 +76,26 @@
 .join-button {
 	display: flex;
 	border: 0;
+	color: #000;
 	background-color: #FFC13B;
 	justify-content: center;
 	padding: 10px 23px;
 	outline: none;
+}
+.join-button:link {
+	color: #000;
+	text-decoration: none;
+}
+.join-button:visited {
+	color: #000;
+	text-decoration: none;
+}
+.join-button:hover {
+	color: #000;
+	text-decoration: none;
+}
+.join-button:active {
+	text-decoration: none;
 }
 .itrst {
 	margin: 10px;

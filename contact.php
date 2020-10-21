@@ -87,12 +87,12 @@
 					<p class="opensans-font-semi-bold ftsz-12">
 						NPOCA Academic Group
 					</p>
-					<button class="join-button">
+					<a class="join-button" href="https://wa.me/message/454W2XXUX4MQG1">
 						<span class="mont-font-bold ftsz-14" style="margin-right: 12px;">
 							Join Now
 						</span>
 						<img src="assets/contact-page/whatsapp.svg" height="20" width="20">
-					</button>
+					</a>
 
 				</div>
 				
@@ -111,6 +111,7 @@
 		</div>
 	</div>
 	<br><br>
+
 	<!-- dummy footer -->
 	<?php require_once("includes/footersmall.php") ?>
 	<!-- footer -->

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
 	function rotations() {
 		var w = window.innerWidth;
 		//alert(w);
@@ -17,11 +18,21 @@ $(document).ready(function() {
 		//alert("ok");
 		var poster = document.getElementById("poster-1");
 		var remain = document.getElementById("remaining-wrapper");
-		var h = parseInt(poster.offsetHeight);
-		h -= 0.15*h;
+		var h = poster.offsetHeight;
+		var tpwidth = poster.offsetTop;
+		var ht = document.getElementById("vid-container").offsetHeight;
+		//alert(ht);
 		//alert(h);
-		remain.style.marginTop = h.toString() + "px";
+		var mns = ht - tpwidth;
+		
+		var ww = window.innerWidth;
+		if(ww >= 992) h -= 0.14*h;
+		else if(ww >= 974) h -= 0.1*h;
+		else if(ww >= 700) h -= 0.07*h;
+		var hh = parseInt(h);
+		remain.style.marginTop = hh.toString() + "px";
 	}
+	//setVideo();
 	setMargin();
 	rotations();
 	$(window).resize(function() {

@@ -6,7 +6,6 @@ nav {
 	border-bottom: 2px solid #cacaca;
 	background-color: #fff;
 	z-index: 1;
-
 }
 .nav-contents {
 	display: flex;
@@ -46,7 +45,35 @@ nav {
 }
 .nav-ul > li > a:active {
 	color: #1B2F3F;
+	
 }
+.soc-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background-color: #596773;
+	text-decoration: none;
+	min-height: 55px;
+}
+.soc-icon:link {
+	color: #fff;
+}
+.soc-icon:visited {
+	color: #fff;
+}
+.soc-icon:hover {
+	color: #fff;
+	background-color: #1B2F3F;
+}
+.soc-icon:active {
+	color: #fff;
+}
+.soc-icon-container {
+	display: flex;
+	align-items: center;
+
+}	
 .nav-ul.show {
 	display: flex;
 }
@@ -60,24 +87,30 @@ nav {
 .hamburger:focus {
 	border: 0;
 }
-
-.soc-icon {
-	background-color: #1b2f3f;
-}
 @media only screen and (min-width: 768px) {
 	.nav-contents {
 		margin: 0 90px;
+		height: 100%;
+		flex-wrap: nowrap;
 	}
 	.nav-ul {
 		display: flex;
+		height: 100%;
 		flex-direction: row;
+		align-items: center;
 		width: auto;
 	}
 	.nav-ul > li {
 		padding: 0px 10px;
+		display: flex;
+		align-items: center;
+		height: 100%;
 	}
 	.hamburger {
 		display: none;
+	}
+	nav {
+		height: 65px;
 	}
 }
 @media only screen and (min-width: 1184px) {

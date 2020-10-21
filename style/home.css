@@ -14,21 +14,16 @@
 }
 .home-banner-video {
 	position: relative;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-top: 53px;
-	height: 75vh;
-	background-image: url("../assets/Asset 19NPOCA Website.png");
-	background-size: cover;
-	background-position: center;	
+	margin-top: 65px;
 }
+
 /*----*/
 .poster-1 {
 	position: absolute;
 	left: 60px;
 	right: 60px; 
-	top: 65%;
+	top: 72%;
+	z-index: ;
 	box-shadow: -3px 3px 8px 4px #969696; 
 }
 .mission-wrapper {
