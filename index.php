@@ -37,10 +37,7 @@
 							<p class="mont-font" style="font-size: 18px;">Career Guidance</p>
 							<span>The decisions young people take on their life at school affect not just their academic performance, higher education, or employment, but also their social lives, finances, and health outcomes.<br><br>
 							Schools are perfectly suited to prepare students for their future career pursuits. This includes developing curricula to improve the skills of students, supporting the interests and aspirations of students.</span>
-							<br><br>
-							<a>
-								<img src="assets/Asset 20NPOCA Website.png" width="160" height="40">
-							</a>
+							<br>
 							</div> 
 							
 						</div>
@@ -171,27 +168,33 @@
 					<p class="opensans-font-bold" style="color: #ffc13b;">
 						Mission Statement
 					</p>
-					<p class="opensans-font-bold" style="color: #fff;">
+					<p class="opensans-font" style="color: #fff;">
 						Make career education accessible to a million students by 2022.
 					</p>
+
 					<br>
-					<p class="opensans-font" style="color: #fff; font-size: 13px;">
-						Work with schools in mainstreaming career education as part of the school curriculum.
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<p class="opensans-font-bold" style="color: #ffc13b;">
+						Vision Statement
 					</p>
+					<p class="opensans-font" style="color: #fff;">
+						Work with schools in mainstreaming career education as part of the school curriculum.
+					</p>
+					
 				</div>
 			</div>
 			<div class="col-md-7" style="background-color: #ffc13b;">
 				<div class="mission-wrapper-2" style="padding-top: 60px; padding-bottom: 40px;">
-					<p class="opensans-font text-right" style="color: #1b2f3f; font-size: 13px;">
-							What a valuable gift to the people of India! NPOCA is a major force for the advancement of career services in this country and deserves the attention of all people who care about the future of India and its children.
-							
+					<p class="opensans-font text-right" style="color: #1b2f3f; font-size: 15px;">
+							What a valuable gift to the people of India! NPOCA is a major force for the advancement of career services in this country and deserves the attention of all people who care about the future of India and its children.<br><br>
+							<img src="assets/marilynmaze.jpg" height="60" width="50">
 					</p>
-					<br><br><br>
+					
 					<p class="opensans-font-bold text-right" style="color: #1b2f3f;">Dr. Marilyn Maze</p>
 					<p class="opensans-font text-right" style="font-size: 13px;">Executive Director</p>
+					<p class="opensans-font text-right" style="font-size: 13px;">
+					 Asia Pacific Career Development Association
+					</p>
+					
 				</div>
 			</div>
 		</div>
@@ -257,16 +260,17 @@
 					<span class="mont-font">JOIN OUR MAIL LIST</span>
 					<span class="opensans-font text-center px-2" style="font-weight: 400; font-size: 13px;">Subscribe our channel to get latest update on careers, exams and many more</span>
 				</div>
-
+				<br>
 				<form id="mf-2" class="mform-main">
 					<input type="text" name="pname" placeholder="Your Name" required="true" maxlength="40">
 					<input type="email" name="pemail" placeholder="Email Id" required="true" maxlength="50">
 					<input type="text" name="pwho" placeholder="You are" required="true" maxlength="30">
+					<br>
 					<button type="submit" id="mf-btn-2" class="mf-but">
 						<span class="opensans-font" style="color: #fff; font-size: 13px;">Submit</span>
 					</button>
 				</form>
-				<p class="opensans-font text-center px-1" style="font-size: 13px;"> Whatsapp users, if you would like to join our broadcasters list</p>
+				<!-- <p class="opensans-font text-center px-1" style="font-size: 13px;"> Whatsapp users, if you would like to join our broadcasters list</p> -->
 			</div>
 		</div>
 		<br><br>

@@ -61,6 +61,9 @@
 .contact-box td {
 	padding-bottom: 10px;
 }
+.orangish {
+	color: #FFA33E;
+}
 .orangish:link {
 	color: #FFA33E;
 }
@@ -97,6 +100,12 @@
 .join-button:active {
 	text-decoration: none;
 }
+.num-link {
+	color: #000;
+}
+.num-link:link {color: #000;}
+.num-link:visited {color: #000;}
+
 .itrst {
 	margin: 10px;
 }

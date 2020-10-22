@@ -51,10 +51,9 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100%;
-	background-color: #596773;
+	background-color: #1B2F3F;
 	text-decoration: none;
-	min-height: 55px;
+	min-height: 52px;
 }
 .soc-icon:link {
 	color: #fff;
@@ -64,7 +63,6 @@ nav {
 }
 .soc-icon:hover {
 	color: #fff;
-	background-color: #1B2F3F;
 }
 .soc-icon:active {
 	color: #fff;
@@ -74,6 +72,15 @@ nav {
 	align-items: center;
 
 }	
+.s-fb:hover {
+	background-color: #1877F2; 
+}
+.s-yt:hover {
+	background-color: #C80808;
+}
+.s-li:hover {
+	background-color: #006097;
+}
 .nav-ul.show {
 	display: flex;
 }

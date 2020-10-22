@@ -39,18 +39,8 @@ This in our view would help youth stay focused and motivated, improve academic p
 			</div>
 		</div>
 		<br>
-		<div id="mission" class="mission" style="padding-top: 66px;">
-			<p class="mission-heading text-center">
-				Our Mission
-			</p>
-			<div class="opensans-font ftsz-14" style="display: flex; flex-direction: column;justify-content: center; align-items: center;">
-				Make career education accessible to a million students by 2022 through:
-				<ul>
-					<li>Career Guidance Services</li>
-					<li>Academic Research</li>
-					<li>Advocacy</li>
-				</ul>
-			</div>
+		<div id="mission" class="mission">
+			
 			<br>
 			<div class="mission-boxes-wrap">
 				<div class="mission-box">

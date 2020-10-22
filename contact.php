@@ -37,7 +37,7 @@
 							</td>
 							<td>
 								<span class="opensans-font-semi-bold ftsz-12">
-									Eldeco Aamantran, Sector 119, Noida, Uttar Pradesh, India
+									Noida, Uttar Pradesh, India
 								</span>
 							</td>
 						</tr>
@@ -46,7 +46,11 @@
 								<img src="assets/contact-page/phone.svg" height="20" width="20">
 							</td>
 							<td>
-								<span class="opensans-font-semi-bold ftsz-12"> +91 85880 13322 </span>
+								<span class="opensans-font-semi-bold ftsz-12">
+									<a class="num-link" href="tel:+918588013322">
+										+91 85880 13322
+									</a>
+								</span>
 							</td>
 						</tr>
 					</table>
@@ -62,8 +66,8 @@
 								<span class="opensans-font-semi-bold ftsz-12 orangish">
 									<a href="mailto:sambhav@npoca.com" class="orangish">sambhav@npoca.com</a><br>
 								</span>
-								<span class="opensans-font-semi-bold ftsz-12" style="color: #d3d3d3">
-									(For teachers only)
+								<span class="opensans-font-semi-bold ftsz-12" style="color: #666666">
+									(For schools only)
 								</span>
 							</td>
 						</tr>
@@ -101,13 +105,26 @@
 			<p style="color: #FFC13B; font-size: 18px;" class="mont-font-medium">
 				Trusted By
 			</p>
-			<img class="itrst" src="assets/contact-page/school-logo.png" height="100" width="100">
-			<img class="itrst" src="assets/contact-page/school-logo-2.png" height="100" width="100">
-			<img class="itrst" src="assets/contact-page/school-logo.png" height="100" width="100">
-			<img class="itrst" src="assets/contact-page/school-logo-2.png" height="100" width="100">
-			<img class="itrst" src="assets/contact-page/school-logo.png" height="100" width="100">
-			<img class="itrst" src="assets/contact-page/school-logo-2.png" height="100" width="100">
-			<img class="itrst" src="assets/contact-page/school-logo.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/01.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/02.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/03.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/04.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/05.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/06.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/07.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/08.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/09.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/10.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/11.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/12.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/13.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/14.png" height="80" width="130">
+			<img class="itrst" src="assets/school-images/15.png" height="100" width="110">
+			<img class="itrst" src="assets/school-images/16.png" height="100" width="110">
+			<img class="itrst" src="assets/school-images/17.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/18.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/19.png" height="100" width="100">
+			<img class="itrst" src="assets/school-images/20.png" height="100" width="100">
 		</div>
 	</div>
 	<br><br>

@@ -6,14 +6,12 @@
 					<table>
 						<tr>
 							<td>
-								<img src="assets/logo.png" height="45" width="165">
+								<img src="assets/logo-single-white.png" height="60" width="150" style="margin-bottom: 10px;">
 							</td>
-							<td class="mont-font" style="color: #fff; padding-left: 10px;">
-								NPOCA
-							</td>
+							
 						</tr>
 					</table>
-					<br>
+					
 					
 					<table style="font-size: 12px; color: #fff;">
 						<tr>
@@ -21,7 +19,7 @@
 								<img src="assets/Asset 15NPOCA Website.png" height="20" width="20">
 							</td>
 							<td class="px-1">
-								<span>+918588013322</span>
+								<span><a href="tel:+918588013322">+9185880 13322</a></span>
 							</td>
 							<td class="pl-2">
 								<img src="assets/Asset 16NPOCA Website.png" height="15" width="25">
@@ -41,16 +39,16 @@
 							<td class="pl-4">
 								<ul class="ful">
 									<li><a href="about.php">About Us</a></li>
-									<li><a href="about.php#mission">Mission</a></li>
+									<li><a href="about.php">Mission</a></li>
 									<li><a href="about.php">Vision</a></li>
 									
 								</ul>
 							</td>
 							<td class="pl-4">
 								<ul class="ful">
-									<li><a>Master Class</a></li>
+									<li><a href="construction.php">Master Class</a></li>
 									<li><a href="contact.php">Contact Us</a></li>
-									<li><a>Recordings</a></li>
+									<li><a href="construction.php">Recordings</a></li>
 									
 								</ul>
 							</td>
@@ -68,8 +66,15 @@
 				Copyright 2020. NPOCA All Rights Reserved.
 			</div>
 			<div class="opensans-font" style="font-size: 13px; color: #fff;">
-				<a>Site Map</a> | <a>Disclaimer</a> | <a>Privacy</a> | <a>Terms & Conditions</a>
+				<a class="secu" data-toggle="modal" data-target="#disclaimer">Disclaimer</a>
+				<span class="px-1">|</span>
+				<a class="secu" data-toggle="modal" data-target="#privacy">Privacy</a>
+				<span class="px-1">|</span>
+				<a class="secu" data-toggle="modal" data-target="#tnc">Terms and Conditions</a>
 			</div>
 		</div>
 	</div>
+
+	<!--modals -->
+	<?php require_once("includes/privacymodals.php") ?>
 </div>
