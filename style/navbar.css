@@ -53,7 +53,7 @@ nav {
 	align-items: center;
 	background-color: #1B2F3F;
 	text-decoration: none;
-	min-height: 52px;
+	min-height: 50px;
 }
 .soc-icon:link {
 	color: #fff;
@@ -127,5 +127,8 @@ nav {
 }
 p {
 	margin-bottom: 5px;
+}
+nav img {
+	margin-bottom: 0;
 }
 /* desktop */

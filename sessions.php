@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About NPOCA</title>
+	<title>Sessions</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php require_once("includes/bootstrap4.php"); ?>
+	<link rel="icon" type="image/jpeg" href="assets/favi.jpeg"/>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
 	<link href="style/navbar.css" rel="stylesheet">

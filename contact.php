@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About NPOCA</title>
+	<title>Contact Us</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php require_once("includes/bootstrap4.php"); ?>
+	<link rel="icon" type="image/jpeg" href="assets/favi.jpeg"/>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
 	<link href="style/navbar.css" rel="stylesheet">
@@ -20,11 +21,7 @@
 				Contact Us
 			</p>
 			<div class="text-center opensans-font ftsz-14">
-				Collaborate
-				Lorem ipsum dolor sit amet, consectetur 
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.
+				If you have a question or a query a member of the team will always be happy to help. Feel free to contact us by email or telephone and we will be sure to get back to you as soon as possible.
 			</div>
 			<br>
 			<div class="contact-boxes-wrap">
@@ -119,7 +116,6 @@
 			<img class="itrst" src="assets/school-images/12.png" height="100" width="100">
 			<img class="itrst" src="assets/school-images/13.png" height="100" width="100">
 			<img class="itrst" src="assets/school-images/14.png" height="80" width="130">
-			<img class="itrst" src="assets/school-images/15.png" height="100" width="110">
 			<img class="itrst" src="assets/school-images/16.png" height="100" width="110">
 			<img class="itrst" src="assets/school-images/17.png" height="100" width="100">
 			<img class="itrst" src="assets/school-images/18.png" height="100" width="100">

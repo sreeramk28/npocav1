@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>NPOCA</title>
+	<title>NPOCA Home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php require_once("includes/bootstrap4.php"); ?>
 	<link rel="icon" type="image/jpeg" href="assets/favi.jpeg"/>
@@ -204,12 +204,8 @@
 		<div class="services-or-process">
 			<p class="text-center mont-font" style="font-size: 18px;"> Our Process </p>
 			<p class="text-center opensans-font" style="font-size: 14px;"> 
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				If you are a school and interested in strengthening Career Education and Guidance, we would invite you to join the community of over 500 Indian schools across Asia. Our Extensive program, will help you develop a full-fledged career guidance center at your school. Our services are free for all schools.
+				Write to <span><a href="mailto:arun@npoca.com" class="process-mail">arun@npoca.com<a></span> for details.
 			</p>
 		</div>
 		<br />

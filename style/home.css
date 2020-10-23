@@ -269,3 +269,19 @@ img {
 		display: none;
 	}
 }
+.process-mail {
+	color: #000;
+	font-weight: bold;
+}
+.process-mail:link {
+	color: #000;
+}
+.process-mail:hover {
+	color: #000;
+}
+.process-mail:visited {
+	color: #000;
+}
+.process-mail:active {
+	color: #000;
+}

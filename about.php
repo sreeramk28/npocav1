@@ -4,6 +4,7 @@
 	<title>About NPOCA</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php require_once("includes/bootstrap4.php"); ?>
+	<link rel="icon" type="image/jpeg" href="assets/favi.jpeg"/>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
 	<link href="style/navbar.css" rel="stylesheet">
@@ -39,36 +40,39 @@ This in our view would help youth stay focused and motivated, improve academic p
 			</div>
 		</div>
 		<br>
+		<br>
 		<div id="mission" class="mission">
+			<p class="mission-heading text-center">
+				Our Key Virtues
+			</p>
 			
-			<br>
 			<div class="mission-boxes-wrap">
 				<div class="mission-box">
 					<img src="assets/about-page/career icon.svg" height="50" width="50">
-					<p class="box-heading">Career</p>
+					<p class="box-heading">Student First</p>
 					<p class="box-description opensans-font ftsz-14 text-center">
-						Lorem ipsum dolor sit amet, consectetur 
+						Student welfare and interest precedes everything else 
 					</p>
 				</div>
 				<div class="mission-box">
 					<img src="assets/about-page/Good humanicon.svg" height="50" width="50">
-					<p class="box-heading">Good Human Being</p>
+					<p class="box-heading">Collaboration</p>
 					<p class="box-description opensans-font ftsz-14 text-center">
-						Lorem ipsum dolor sit amet, consectetur 
+						Building partnerships and alliances is the fastest way to contribute and scale 
 					</p>
 				</div>
 				<div class="mission-box">
 					<img src="assets/about-page/Personal touch icon.svg" height="50" width="50">
-					<p class="box-heading">Personal Touch</p>
+					<p class="box-heading">Integrity</p>
 					<p class="box-description opensans-font ftsz-14 text-center">
-						Lorem ipsum dolor sit amet, consectetur 
+						It is about what's right over what’s convenient 
 					</p>
 				</div>
 				<div class="mission-box">
 					<img src="assets/about-page/Experience icon.svg" height="50" width="50">
-					<p class="box-heading">Experience</p>
+					<p class="box-heading">Transparency</p>
 					<p class="box-description opensans-font ftsz-14 text-center">
-						Lorem ipsum dolor sit amet, consectetur 
+						It is key to building trust. 
 					</p>
 				</div>
 			</div>

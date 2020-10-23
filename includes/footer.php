@@ -14,8 +14,9 @@
 					</table>
 					<br>
 					<p class="opensans-font footer-text">
-						As a social initiative we seek support of professionals from industry & academia in nurturing our youth by exposing them to the world of work and develop 21st century skills. If you can talk about futuristic careers and or create child centric content on careers, life skills, and  are ready to volunteer your time, we would like to have you onboard as a mentor.
+						At NPOCA, we are attempting to build comprehensive career services for school students, which would help them identify their talent, explore opportunities and make informed career decisions using the best resource available globally.
 					</p>
+					<br>
 					<table style="font-size: 12px; color: #fff;">
 						<tr>
 							<td>

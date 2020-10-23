@@ -12,17 +12,18 @@
 			<li> <a href="sessions.php"> Sessions </a> </li> 
 			<li> <a href="construction.php"> Career Info </a> </li> 
 			<li> <a href="contact.php"> Contact Us </a> </li> 
-			<li class="soc-icon-container" style="width: 105px; padding: 0 5px;">
-				<a href="https://www.facebook.com/NPOCAInd/" class="soc-icon s-fb" style="width: 35px;">
+			<li>
+				<span class="soc-icon-container" style="width: 105px;">
+				<a href="https://www.facebook.com/NPOCAInd/" class="soc-icon s-fb" style="width: 35px; border-radius: 15px 0 0 15px;">
 					<img src="assets/Asset 3NPOCA Website.png" height="15" width="16">
 				</a>
 				<a href="https://www.youtube.com/channel/UCGG1BYfTyo-_MhjcDGZT3Kg" class="soc-icon s-yt" style="width: 35px; border-left: 1px solid #596773; border-right: 1px solid #596773">
 					<img src="assets/Asset 2NPOCA Website.png" height="13" width="16">
 				</a>
-				<a href="https://www.linkedin.com/in/npoca/" class="soc-icon s-li" style="width: 35px;">
+				<a href="https://www.linkedin.com/in/npoca/" class="soc-icon s-li" style="width: 35px; border-radius: 0 15px 15px 0;">
 					<img src="assets/Asset 1NPOCA Website.png" height="15" width="16">
 				</a>
-				
+				</span>
 			</li>
 		</ul>
 		
