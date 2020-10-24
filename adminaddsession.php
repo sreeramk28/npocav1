@@ -64,7 +64,7 @@
 			<div id="speakers_control"></div>
 			<div class="form-group">
 				<label for="shn_description">Session Description:</label>
-				<textarea id="shn_description" class="form-control" name="shn_description" maxlength="280" required></textarea>
+				<textarea id="shn_description" class="form-control" name="shn_description" maxlength="270" required></textarea>
 			</div>
 			<div class="form-group">
 				<label for="shn_date">Session Date:</label>
