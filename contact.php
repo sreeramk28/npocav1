@@ -17,10 +17,10 @@
 	<div class="contact-page-wrapper">
 		<br>
 		<div class="contact">
-			<p class="contactus-heading text-center">
+			<p class="contactus-heading text-center orangish">
 				Contact Us
 			</p>
-			<div class="text-center opensans-font ftsz-14">
+			<div class="text-center opensans-font ftsz-14" style="margin: 0 60px;">
 				If you have a question or a query a member of the team will always be happy to help. Feel free to contact us by email or telephone and we will be sure to get back to you as soon as possible.
 			</div>
 			<br>

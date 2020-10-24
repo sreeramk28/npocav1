@@ -20,7 +20,7 @@
 			<div class="row">
 				<div class="col-md">
 					<p class="small-heading">
-						Our vision
+						Vision Statement
 					</p>
 					<p class="large-caption">
 						Work with schools in mainstreaming career education as part of the school curriculum.
@@ -42,7 +42,7 @@ This in our view would help youth stay focused and motivated, improve academic p
 		<br>
 		<br>
 		<div id="mission" class="mission">
-			<p class="mission-heading text-center">
+			<p class="mission-heading text-center" style="color: #FFA33E;">
 				Our Key Virtues
 			</p>
 			

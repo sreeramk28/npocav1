@@ -67,7 +67,7 @@ $(document).ready(function() {
 				var btn = document.createElement("a");
 				btn.classList.add("button-1", "text-center");
 				btn.href = pluck(link[i]);
-
+				btn.target = "_blank";
 				/*level 2*/
 				var tp = document.createElement("p");
 				tp.classList.add("title"); tp.classList.add("mont-font-bold");
