@@ -75,6 +75,7 @@
 								<span class="opensans-font" style="color: #fff; font-size: 13px;">Submit</span>
 							</button>
 						</form>
+
 						<!-- <p class="opensans-font text-center px-1" style="font-size: 13px;"> Whatsapp users, if you would like to join our broadcasters list</p> -->
 					</div>
 

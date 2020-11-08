@@ -24,9 +24,12 @@ $(document).ready(function() {
 	    	type: "post",
 	    	data: serializedData
 	    });
-	    //alert("ok");
+	    //alert("ok"); 
 	    request.done(function (response, textStatus, jqXHR){
         	alert(response);
+        	document.getElementById("mf-1").reset();
+        	document.getElementById("mf-2").reset();
+        	
         	// Log a message to the console
         	//alert("ok");
         	//console.log("Hooray, it worked!");
