@@ -62,7 +62,7 @@
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="mail-form show-form">
 						<div class="inner-div" style="padding-top: 35px">
-							<span class="mont-font">JOIN OUR MAIL LIST</span>
+							<span class="mont-font semibold-emphasis">JOIN OUR MAIL LIST</span>
 							<span class="opensans-font text-center px-2" style="font-weight: 400; font-size: 13px;">Subscribe our channel to get latest update on careers, exams and many more</span>
 						</div>
 						<br>

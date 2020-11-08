@@ -11,7 +11,7 @@
 	<link href="style/navbar.css" rel="stylesheet">
 	<link href="style/home.css" rel="stylesheet">
 	<link href="style/footer.css" rel="stylesheet">
-	
+	<link href="style/fontstyles.css" rel="stylesheet">
 	<style type="text/css">
 
 	</style>
@@ -33,8 +33,8 @@
 					<div class="col-12 col-lg-5 pm-0" >
 						<div class="opening-box">
 							
-							<div class="opening-text">
-							<p class="mont-font" style="font-size: 18px;">Career Guidance</p>
+							<div class="opening-text ftsz-14 opensans-font">
+							<p class="mont-font semibold-emphasis" style="font-size: 18px;">Career Guidance</p>
 							<span>The decisions young people take on their life at school affect not just their academic performance, higher education, or employment, but also their social lives, finances, and health outcomes.<br><br>
 							Schools are perfectly suited to prepare students for their future career pursuits. This includes developing curricula to improve the skills of students, supporting the interests and aspirations of students.</span>
 							<br>
@@ -53,8 +53,8 @@
 													<img src="assets/Asset 4NPOCA Website.png" height="50" width="50">
 												</td>
 												<td class="td-1">
-													<p class="stat-1 mont-font">500+</p>
-													<p class="stat-desc">Participating Schools</p>
+													<p class="stat-1 mont-font bold-emphasis">500+</p>
+													<p class="opensans-font ftsz-14">Participating Schools</p>
 												</td>
 											</tr>
 										</table>
@@ -68,8 +68,8 @@
 													<img src="assets/Asset 5NPOCA Website.png" height="50" width="50">
 												</td>
 												<td class="td-1">
-													<p class="stat-1 mont-font">25+</p>
-													<p class="stat-desc">Exceptional Speakers</p>
+													<p class="stat-1 mont-font bold-emphasis">25+</p>
+													<p class="opensans-font ftsz-14">Exceptional Speakers</p>
 												</td>
 											</tr>
 										</table>
@@ -85,8 +85,8 @@
 													<img src="assets/Asset 6NPOCA Website.png" height="50" width="50">
 												</td>
 												<td class="td-1">
-													<p class="stat-1 mont-font">7+</p>
-													<p class="stat-desc">Countries</p>
+													<p class="stat-1 mont-font bold-emphasis">7+</p>
+													<p class="opensans-font ftsz-14">Countries</p>
 												</td>
 											</tr>
 										</table>
@@ -100,8 +100,8 @@
 													<img src="assets/Asset 7NPOCA Website.png" height="50" width="50">
 												</td>
 												<td class="td-1">
-													<p class="stat-1 mont-font">13000+</p>
-													<p class="stat-desc">Students Benefited</p>
+													<p class="stat-1 mont-font bold-emphasis">13000+</p>
+													<p class="opensans-font ftsz-14">Students Benefited</p>
 												</td>
 											</tr>
 										</table>
@@ -116,7 +116,7 @@
 	</div>
 	<div id="remaining-wrapper" class="remaining-wrapper">
 		<div class="services-or-process">
-			<p class="text-center mont-font" style="font-size: 18px;"> Our Services </p>
+			<p class="text-center mont-font semibold-emphasis" style="font-size: 18px;"> Our Services </p>
 			<p class="text-center opensans-font" style="font-size: 14px;"> 
 				At NPOCA, we are attempting to build comprehensive career services for school students, which would help them identify their talent, explore opportunities and make informed career decisions using the best resource available globally.
 				We enable schools in setting-up, Career Development Center, a resource center fully equipped to support our youths' transition from school to Higher Education and or Work. <br>
@@ -130,14 +130,14 @@
 		<div class="service-boxes">
 			<div class="services-box-shadow">
 				<img src="assets/Asset 8NPOCA Website.png" height="50" width="50">
-				<p class="mont-font text-center">Career Guidance</p>
+				<p class="mont-font semibold-emphasis text-center">Career Guidance</p>
 				<p class="ftsz-14 opensans-font text-center">
 					Year long services for career selection & planning
 				</p> 
 			</div>
 			<div class="services-box-shadow">
 				<img src="assets/Asset 9NPOCA Website.png" height="50" width="50">
-				<p class="mont-font text-center">Advocacy</p>
+				<p class="mont-font semibold-emphasis text-center">Advocacy</p>
 				<p class="ftsz-14 opensans-font text-center">
 					Building consensus on practices and policy around Career Education
 				</p>
@@ -145,7 +145,7 @@
 			<div class="services-box-shadow">
 				<img src="assets/Asset 10NPOCA Website.png" height="50" width="50">
 
-				<p class="mont-font text-center">Academic Research</p>
+				<p class="mont-font semibold-emphasis text-center">Academic Research</p>
 				<p class="ftsz-14 opensans-font text-center">
 					Driving decisions based on data
 				</p>
@@ -165,7 +165,7 @@
 		<div class="row">
 			<div class="col-md-5" style="background-color: #1b2f3f;">
 				<div class="mission-wrapper" style="padding: 60px 0;">
-					<p class="opensans-font-bold" style="color: #ffc13b;">
+					<p class="opensans-font bold-emphasis" style="color: #ffc13b;">
 						Mission Statement
 					</p>
 					<p class="opensans-font" style="color: #fff;">
@@ -173,7 +173,7 @@
 					</p>
 
 					<br>
-					<p class="opensans-font-bold" style="color: #ffc13b;">
+					<p class="opensans-font bold-emphasis" style="color: #ffc13b;">
 						Vision Statement
 					</p>
 					<p class="opensans-font" style="color: #fff;">
@@ -189,7 +189,7 @@
 							<img src="assets/marilynmaze.jpg" height="60" width="50">
 					</p>
 					
-					<p class="opensans-font-bold text-right" style="color: #1b2f3f;">Dr. Marilyn Maze</p>
+					<p class="opensans-font bold-emphasis text-right" style="color: #1b2f3f;">Dr. Marilyn Maze</p>
 					<p class="opensans-font text-right" style="font-size: 13px;">Executive Director</p>
 					<p class="opensans-font text-right" style="font-size: 13px;">
 					 Asia Pacific Career Development Association
@@ -202,22 +202,22 @@
 	<br><br>
 	<div class="remaining-wrapper">
 		<div class="services-or-process">
-			<p class="text-center mont-font" style="font-size: 18px;"> Our Process </p>
+			<p class="text-center mont-font semibold-emphasis" style="font-size: 18px;"> Our Process </p>
 			<p class="text-center opensans-font" style="font-size: 14px;"> 
 				If you are a school and interested in strengthening Career Education and Guidance, we would invite you to join the community of over 500 Indian schools across Asia. Our Extensive program, will help you develop a full-fledged career guidance center at your school. Our services are free for all schools.
-				Write to <span><a href="mailto:arun@npoca.com" class="process-mail">arun@npoca.com<a></span> for details.
+				Write to <span><a href="mailto:arun@npoca.com" class="process-mail bold-emphasis">arun@npoca.com<a></span> for details.
 			</p>
 		</div>
 		<br />
 		<div class="process-circles">
 			<div class="circle-wrap">
 				<div class="number-circle mx-auto text-center">
-					<span class="opensans-font-bold ftsz-14">01</span>
+					<span class="opensans-font bold-emphasis ftsz-14">01</span>
 				</div>
 				<div class="circle-out">
 					<img src="assets/Asset 12NPOCA Website.png" height="50" width="50">
 				</div>
-				<p class="text-center circle-desc"> 
+				<p class="text-center circle-desc mont-font semibold-emphasis ftsz-14"> 
 					Become a member of the initiative
 				</p>
 			</div>
@@ -225,12 +225,12 @@
 			<p class="arrow arrow-down-facing"></p>
 			<div class="circle-wrap">
 				<div class="number-circle mx-auto text-center">
-					<span class="opensans-font-bold ftsz-14">02</span>
+					<span class="opensans-font bold-emphasis ftsz-14">02</span>
 				</div>
 				<div class="circle-out">
 					<img src="assets/Asset 13NPOCA Website.png" height="50" width="50">
 				</div>
-				<p class="text-center circle-desc"> 
+				<p class="text-center circle-desc mont-font semibold-emphasis ftsz-14"> 
 					Inform Students about the session
 				</p>
 			</div>
@@ -238,12 +238,12 @@
 			<p class="arrow arrow-down-facing"></p>
 			<div class="circle-wrap">
 				<div class="number-circle mx-auto text-center">
-					<span class="opensans-font-bold ftsz-14">03</span>
+					<span class="opensans-font bold-emphasis ftsz-14">03</span>
 				</div>
 				<div class="circle-out">
 					<img src="assets/Asset 14NPOCA Website.png" height="50" width="50">
 				</div>
-				<p class="text-center circle-desc"> 
+				<p class="text-center circle-desc mont-font semibold-emphasis ftsz-14"> 
 					Join our media list to get more benefits
 				</p>
 			</div>
@@ -253,7 +253,7 @@
 			
 			<div class="mail-form-main show-form-main">
 				<div class="inner-div" style="padding-top: 35px">
-					<span class="mont-font">JOIN OUR MAIL LIST</span>
+					<span class="mont-font semibold-emphasis">JOIN OUR MAIL LIST</span>
 					<span class="opensans-font text-center px-2" style="font-weight: 400; font-size: 13px;">Subscribe our channel to get latest update on careers, exams and many more</span>
 				</div>
 				<br>

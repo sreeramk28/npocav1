@@ -1,37 +1,8 @@
 .contact-page-wrapper {
 	margin: 53px 30px 0 30px;
-}
+} 
 .contactus-heading {
 	font-size: 24px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-}
-.opensans-font {
-	font-family: 'Open Sans', sans-serif;
-}
-.mont-font {
-	font-family: 'Montserrat', sans-serif;
-}
-.mont-font-bold {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-}
-.mont-font-medium {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
-}
-.opensans-font-semi-bold {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-}
-.ftsz-14 {
-	font-size: 14px;
-}
-.ftsz-13 {
-	font-size: 13px;
-}
-.ftsz-12 {
-	font-size: 12px;
 }
 .contact-boxes-wrap {
 	display: flex;
@@ -74,7 +45,7 @@
 	color: #FFA33E;
 }
 .orangish:active {
-	color: #FFC13B;
+	color: #FFA33E;
 }
 .join-button {
 	display: flex;

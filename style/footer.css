@@ -1,4 +1,3 @@
-
 .footeri {
 	background-color: #262e33; 
 	width: 100%; 
@@ -117,10 +116,7 @@ input {
 	width: 100%; 
 	background-color: #394044;
 }
-.mont-font {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-}
+
 .secu {
 	color: #fff;
 	cursor: pointer;
@@ -129,11 +125,3 @@ input {
 .secu:visited {color: #fff;}
 .secu:hover {color: #fff;}
 .secu:active {color: #fff;}
-.headings {
-	font-size: 14px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-}
-.descriptions {
-	font-size: 12px;
-}

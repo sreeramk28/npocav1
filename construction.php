@@ -7,16 +7,17 @@
 	<?php require_once("includes/bootstrap4.php"); ?>
 	<link rel="icon" type="image/jpeg" href="assets/favi.jpeg"/>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 	<link href="style/navbar.css" rel="stylesheet">
 	<link href="style/footer.css" rel="stylesheet">
+	<link href="style/fontstyles.css" rel="stylesheet">
 	<script src="js/navbar.js" type="text/javascript"></script>
 	<style type="text/css">
 		.page-wrapper {
 			margin: 53px 30px 0 30px;
 		}
 		.puc-text {
-			font-family: 'Montserrat', sans-serif; 
-			font-weight: 600; 
+			 
 			color: #1b2f3f;
 			
 		}
@@ -50,7 +51,7 @@
 	<?php require_once("includes/navbar.php"); ?>
 	<div class="page-wrapper">
 	<div style="margin-top: 65px; min-height: 80vh; display: flex; align-items: center; justify-content: center;">
-		<p class="text-center puc-text puc-text-sz">
+		<p class="text-center puc-text puc-text-sz mont-font semibold-emphasis">
 			PAGE UNDER C<span style="color: #FFC13B;">O</span>NSTRUCTI<span style="color: #FFC13B;">O</span>N 
 		</p>
 	</div>

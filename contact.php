@@ -10,6 +10,7 @@
 	<link href="style/navbar.css" rel="stylesheet">
 	<link href="style/contact.css" rel="stylesheet">
 	<link href="style/footer.css" rel="stylesheet">
+	<link href="style/fontstyles.css" rel="stylesheet">
 	<script src="js/navbar.js" type="text/javascript"></script>
 </head>
 <body>
@@ -17,7 +18,7 @@
 	<div class="contact-page-wrapper">
 		<br>
 		<div class="contact">
-			<p class="contactus-heading text-center orangish">
+			<p class="contactus-heading mont-font semibold-emphasis text-center orangish">
 				Contact Us
 			</p>
 			<div class="text-center opensans-font ftsz-14" style="margin: 0 60px;">
@@ -33,7 +34,7 @@
 								<img src="assets/contact-page/pin  address.svg" height="20" width="20">	
 							</td>
 							<td>
-								<span class="opensans-font-semi-bold ftsz-12">
+								<span class="opensans-font semibold-emphasis ftsz-12">
 									Noida, Uttar Pradesh, India
 								</span>
 							</td>
@@ -43,7 +44,7 @@
 								<img src="assets/contact-page/phone.svg" height="20" width="20">
 							</td>
 							<td>
-								<span class="opensans-font-semi-bold ftsz-12">
+								<span class="opensans-font semibold-emphasis ftsz-12">
 									<a class="num-link" href="tel:+918588013322">
 										+91 85880 13322
 									</a>
@@ -60,10 +61,10 @@
 								<img src="assets/contact-page/teacher girl.svg" height="20" width="20">	
 							</td>
 							<td>
-								<span class="opensans-font-semi-bold ftsz-12 orangish">
+								<span class="opensans-font semibold-emphasis ftsz-12 orangish">
 									<a href="mailto:sambhav@npoca.com" class="orangish">sambhav@npoca.com</a><br>
 								</span>
-								<span class="opensans-font-semi-bold ftsz-12" style="color: #666666">
+								<span class="opensans-font semibold-emphasis ftsz-12" style="color: #666666">
 									(For schools only)
 								</span>
 							</td>
@@ -73,7 +74,7 @@
 								<img src="assets/contact-page/mail.svg" height="20" width="20">
 							</td>
 							<td>
-								<span class="opensans-font-semi-bold ftsz-12"> 
+								<span class="opensans-font semibold-emphasis ftsz-12"> 
 									<a href="mailto:arun@npoca.com" class="orangish">arun@npoca.com</a>
 								</span>
 							</td>
@@ -82,14 +83,14 @@
 				</div>
 				<div class="contact-box">
 					<img src="assets/contact-page/group chat.svg" height="50" width="50">
-					<p class="opensans-font-semi-bold ftsz-12" style="color: #666666">
+					<p class="opensans-font semibold-emphasis ftsz-12" style="color: #666666">
 						Join our Whatsapp Group
 					</p>
-					<p class="opensans-font-semi-bold ftsz-12">
+					<p class="opensans-font semibold-emphasis ftsz-12">
 						NPOCA Academic Group
 					</p>
 					<a class="join-button" href="https://wa.me/message/454W2XXUX4MQG1">
-						<span class="mont-font-bold ftsz-14" style="margin-right: 12px;">
+						<span class="mont-font bold-emphasis ftsz-14" style="margin-right: 12px;">
 							Join Now
 						</span>
 						<img src="assets/contact-page/whatsapp.svg" height="20" width="20">
@@ -99,7 +100,7 @@
 				
 			</div>
 			<br>
-			<p style="color: #FFC13B; font-size: 18px;" class="mont-font-medium">
+			<p style="color: #FFC13B; font-size: 18px;" class="mont-font medium-emphasis">
 				Trusted By
 			</p>
 			<img class="itrst" src="assets/school-images/01.png" height="100" width="100">

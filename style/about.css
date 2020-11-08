@@ -1,29 +1,11 @@
-.about-page-wrapper {
-	margin: 53px 30px 0 30px;
-}
-.opensans-font {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-}
-.ftsz-14 {
-	font-size: 14px;
-}
 .large-caption {
 	font-size: 28px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-
 }
 .small-heading {
-	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
 	color: #FFA33E;
 }
 .mission-heading {
 	font-size: 24px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
 }
 .mission-boxes-wrap {
 	display: flex;
@@ -43,9 +25,10 @@
 }
 .box-heading {
 	font-size: 15px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
 	margin-bottom: 8px;
+}
+.about-page-wrapper {
+	margin: 53px 30px 0 30px;
 }
 @media only screen and (min-width: 768px) {
 	.about-page-wrapper {

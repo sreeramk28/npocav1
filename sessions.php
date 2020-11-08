@@ -10,14 +10,15 @@
 	<link href="style/navbar.css" rel="stylesheet">
 	<link href="style/sessions.css" rel="stylesheet">
 	<link href="style/footer.css" rel="stylesheet">
+	<link href="style/fontstyles.css" rel="stylesheet">
 	<script src="js/navbar.js" type="text/javascript"></script>
-</head>
+</head> 
 <body>
 	<?php require_once("includes/navbar.php"); ?>
 	<div class="sessions-page-wrapper" style="min-height: 90vh;">
 		<br>
 		<div class="chumma">
-			<p class="sessions-heading text-center">
+			<p class="sessions-heading mont-font semibold-emphasis text-center">
 				Sessions
 			</p>
 			<div class="text-center opensans-font ftsz-14">

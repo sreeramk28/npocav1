@@ -1,0 +1,27 @@
+.opensans-font {
+	font-family: 'Open Sans', sans-serif;
+}
+.mont-font {
+	font-family: 'Montserrat', sans-serif;
+}
+.regular-emphasis {
+	font-weight: 400;
+}
+.medium-emphasis {
+	font-weight: 500;
+}
+.semibold-emphasis {
+	font-weight: 600;
+}
+.bold-emphasis {
+	font-weight: 700;
+}
+.ftsz-14 {
+	font-size: 14px;
+}
+.ftsz-13 {
+	font-size: 13px;
+}
+.ftsz-12 {
+	font-size: 12px;
+}

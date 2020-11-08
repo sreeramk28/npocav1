@@ -1,36 +1,9 @@
-.mont-font {
-	font-family: 'Montserrat', sans-serif; 
-	font-weight: 600;
-}
-.opensans-font {
-	font-family: 'Open Sans', sans-serif;
-}
-.opensans-font-bold {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;	
-}
-.ftsz-14 {
-	font-size: 14px;
-}
-.home-banner-video {
-	position: relative;
-	margin-top: 65px;
-}
-
-/*----*/
 .poster-1 {
 	position: absolute;
 	left: 60px;
 	right: 60px; 
 	top: 72%;
 	box-shadow: -3px 3px 8px 4px #969696; 
-}
-.mission-wrapper {
-	margin-left: 30px;
-}
-.mission-wrapper-2 {
-	margin-left: 30px;
-	margin-right: 30px;
 }
 @media only screen and (min-width: 768px) {
 	.poster-1 {
@@ -44,12 +17,25 @@
 		right: 260px;  
 	}
 }
+.home-banner-video {
+	position: relative;
+	margin-top: 65px;
+}
+
+/*----*/
+
+.mission-wrapper {
+	margin-left: 30px;
+}
+.mission-wrapper-2 {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
 .opening-box {
 	background-color: #ffc13b;
 }
 .opening-text {
-	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
 	padding: 30px;
 }
 .pm-0 {
@@ -59,12 +45,8 @@
 
 .stat-1 {
 	font-size: 22px;
-	font-family: 'Montserrat', sans-serif;
 }
-.stat-desc {
-	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
-}
+
 .info-bit {
 	display: flex;
 	flex-direction: row;
@@ -194,9 +176,6 @@ img {
 	box-shadow: 0 0 0 4px #ffc13b;
 }
 .circle-desc {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-	font-size: 14px;
 	max-width: 155px;
 	margin-top: 3px;
 }
@@ -271,7 +250,6 @@ img {
 }
 .process-mail {
 	color: #000;
-	font-weight: bold;
 }
 .process-mail:link {
 	color: #000;

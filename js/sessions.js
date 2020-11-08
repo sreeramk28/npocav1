@@ -70,7 +70,7 @@ $(document).ready(function() {
 				btn.target = "_blank";
 				/*level 2*/
 				var tp = document.createElement("p");
-				tp.classList.add("title"); tp.classList.add("mont-font-bold");
+				tp.classList.add("title"); tp.classList.add("mont-font", "semibold-emphasis");
 				tp.style.color = "#FFA333E";
 				tp.innerHTML = pluck(title[i]);
 				var tbL1 = document.createElement("table");
@@ -87,7 +87,7 @@ $(document).ready(function() {
 				dspn.style.color = "#1B2F3F";
 				dspn.innerHTML = pluck(description[i]);
 				var bspn = document.createElement("span");
-				bspn.classList.add("mont-font-bold", "button-text-1");
+				bspn.classList.add("mont-font", "semibold-emphasis", "button-text-1");
 				bspn.innerHTML = "Register Now";
 
 				/*level 3*/
@@ -112,12 +112,12 @@ $(document).ready(function() {
 				clock_img.height = "15"; 
 				clock_img.width = "15";
 				var datespn = document.createElement("span");
-				datespn.classList.add("the-date"); 
+				datespn.classList.add("the-date", "ftsz-13"); 
 				datespn.classList.add("opensans-font");
 				datespn.innerHTML = dateTime[0];
 
 				var timespn = document.createElement("span");
-				timespn.classList.add("the-date"); 
+				timespn.classList.add("the-date", "ftsz-13"); 
 				timespn.classList.add("opensans-font");
 				timespn.innerHTML = dateTime[1]; 
 

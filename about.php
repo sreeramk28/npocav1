@@ -10,6 +10,7 @@
 	<link href="style/navbar.css" rel="stylesheet">
 	<link href="style/about.css" rel="stylesheet">
 	<link href="style/footer.css" rel="stylesheet">
+	<link href="style/fontstyles.css" rel="stylesheet">
 	<script src="js/navbar.js" type="text/javascript"></script>
 </head>
 <body>
@@ -19,15 +20,15 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md">
-					<p class="small-heading">
+					<p class="small-heading ftsz-14 opensans-font regular-emphasis">
 						Vision Statement
 					</p>
-					<p class="large-caption">
+					<p class="large-caption mont-font semibold-emphasis">
 						Work with schools in mainstreaming career education as part of the school curriculum.
 					</p>
 				</div>
 				<div class="col-md">
-					<p class="small-heading">
+					<p class="small-heading ftsz-14 opensans-font regular-emphasis">
 						About us
 					</p>
 					<p class="opensans-font ftsz-14">
@@ -42,35 +43,35 @@ This in our view would help youth stay focused and motivated, improve academic p
 		<br>
 		<br>
 		<div id="mission" class="mission">
-			<p class="mission-heading text-center" style="color: #FFA33E;">
+			<p class="mission-heading mont-font semibold-emphasis text-center" style="color: #FFA33E;">
 				Our Key Virtues
 			</p>
 			
 			<div class="mission-boxes-wrap">
 				<div class="mission-box">
 					<img src="assets/about-page/career icon.svg" height="50" width="50">
-					<p class="box-heading">Student First</p>
+					<p class="box-heading mont-font semibold-emphasis">Student First</p>
 					<p class="box-description opensans-font ftsz-14 text-center">
 						Student welfare and interest precedes everything else 
 					</p>
 				</div>
 				<div class="mission-box">
 					<img src="assets/about-page/Good humanicon.svg" height="50" width="50">
-					<p class="box-heading">Collaboration</p>
+					<p class="box-heading mont-font semibold-emphasis">Collaboration</p>
 					<p class="box-description opensans-font ftsz-14 text-center">
 						Building partnerships and alliances is the fastest way to contribute and scale 
 					</p>
 				</div>
 				<div class="mission-box">
 					<img src="assets/about-page/Personal touch icon.svg" height="50" width="50">
-					<p class="box-heading">Integrity</p>
+					<p class="box-heading mont-font semibold-emphasis">Integrity</p>
 					<p class="box-description opensans-font ftsz-14 text-center">
 						It is about what's right over what’s convenient 
 					</p>
 				</div>
 				<div class="mission-box">
 					<img src="assets/about-page/Experience icon.svg" height="50" width="50">
-					<p class="box-heading">Transparency</p>
+					<p class="box-heading mont-font semibold-emphasis">Transparency</p>
 					<p class="box-description opensans-font ftsz-14 text-center">
 						It is key to building trust. 
 					</p>
