@@ -18,5 +18,6 @@ create table npocaadmins (
 create table mailsubscribers (
 	sub_name varchar(40),
 	sub_email varchar(50),
-	sub_designation varchar(30)
+	sub_designation varchar(30),
+	id SERIAL PRIMARY KEY;
 );
