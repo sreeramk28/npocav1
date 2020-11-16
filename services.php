@@ -17,6 +17,7 @@
     
 </head>
 <body>
+    
     <!--header -->
     <?php require_once("includes/navbar.php"); ?>
     <!-- Main-Content  -->
