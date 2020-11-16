@@ -85,7 +85,7 @@
                         Planning
                         early in their life’s and make an informed career decisions.<br><br><br></p>
                     <button class="button know-more">
-                        <a class="ftsz-14 bold-emphasis" href="#">Know More </a>
+                        <a class="ftsz-14 bold-emphasis" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScetEXHU7RUpXJmOQ0sqONQ_bhjPowBVgAA3KAjVKyPGPzMEw/viewform">Know More </a>
                     </button>
                 </div>
             </div>
