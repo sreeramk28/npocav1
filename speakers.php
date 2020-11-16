@@ -18,7 +18,7 @@
 	<!--header -->
 	<?php require_once("includes/navbar.php"); ?>
 	<div class="page-wrapper">
-		<h5>dummy text</h5>
+		
 	</div>
 	
 	<br><br>

@@ -10,7 +10,7 @@
 		<ul class="nav-ul">
 			<li> <a href="about.php"> About Us </a> </li>
 			<li> <a href="sessions.php"> Sessions </a> </li> 
-			<li> <a href="construction.php"> Career Info </a> </li> 
+			<li> <a href="career-day.php"> Career Info </a> </li> 
 			<li> <a href="contact.php"> Contact Us </a> </li> 
 			<li>
 				<span class="soc-icon-container" style="width: 105px;">
