@@ -2,8 +2,9 @@
 <html>
 
 <head>
-    <title></title>
+    <title>Making Informed Choices, Career Day</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Making Informed Choices, Career Day">
      <?php require_once("includes/bootstrap4.php"); ?>
     <link rel="icon" type="image/jpeg" href="assets/favi.jpeg" />
     <!-- Fonts -->
