@@ -22,7 +22,7 @@
     <?php require_once("includes/navbar.php"); ?>
     <!-- Main-Content  -->
     <div class="page-wrapper opensans-font">
-        <p class="ftsz-24 mont-font semibold-emphasis text-center my-3 services-heading">Services</p>
+        <h4 class="ftsz-24 mont-font semibold-emphasis text-center mt-5 my-3 services-heading">Services</h4>
         <p class="ftsz-16 text-center my-3 services-desc">At NPOCA, we are attempting to build comprehensive career services for school students, which would help them
             identify their talent, explore opportunities and make informed career decisions using the best resource
             available globally.</p>
