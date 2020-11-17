@@ -1,4 +1,6 @@
-
+.services-heading {
+    font-size: 24px;
+}
 .services-desc {
     padding: 0 82px;
 }
@@ -74,13 +76,6 @@
 }
 
 
-@media (max-width:1118px) {
-	
-}
-
-@media(max-width:900px) {
-   
-}
 
 @media(max-width:730px) {
     .services-desc {

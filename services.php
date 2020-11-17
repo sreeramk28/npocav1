@@ -22,7 +22,7 @@
     <?php require_once("includes/navbar.php"); ?>
     <!-- Main-Content  -->
     <div class="page-wrapper opensans-font">
-        <p class="ftsz-28 bold-emphasis text-center my-3">Services</p>
+        <p class="ftsz-24 mont-font semibold-emphasis text-center my-3 services-heading">Services</p>
         <p class="ftsz-16 text-center my-3 services-desc">At NPOCA, we are attempting to build comprehensive career services for school students, which would help them
             identify their talent, explore opportunities and make informed career decisions using the best resource
             available globally.</p>
@@ -42,7 +42,7 @@
                         </p>
                     </div>
                     <div class="card-button">
-                        <a class="card-link ftsz-16 bold-emphasis" href="#">Know More<span><img class="card-link-arrow"
+                        <a class="card-link ftsz-16 bold-emphasis" href="sessions.php">Know More<span><img class="card-link-arrow"
                             src="./assets/services-page/read-blog-arrow.png" alt="" /></span></a>
                     </div>
                 </li>
@@ -59,7 +59,7 @@
                         </p>
                     </div>
                     <div class="card-button">
-                        <a class="card-link ftsz-16 bold-emphasis" href="#">What's New<span><img class="card-link-arrow"
+                        <a class="card-link ftsz-16 bold-emphasis" href="career-day.php">What's New<span><img class="card-link-arrow"
                             src="./assets/services-page/read-blog-arrow.png" alt="" /></span></a>
                     </div>
                 </li>
@@ -76,7 +76,7 @@
                         </p>
                     </div>
                     <div class="card-button">
-                        <a class="card-link ftsz-16 bold-emphasis" href="#">Upcoming Sessions<span><img class="card-link-arrow"
+                        <a class="card-link ftsz-16 bold-emphasis" href="construction.php">Upcoming Sessions<span><img class="card-link-arrow"
                             src="./assets/services-page/read-blog-arrow.png" alt="" /></span></a>
                     </div>
                 </li>
@@ -93,7 +93,7 @@
                         </p>
                     </div>
                     <div class="card-button fix">
-                        <a class="card-link ftsz-16 bold-emphasis" href="#">Know More<span><img class="card-link-arrow"
+                        <a class="card-link ftsz-16 bold-emphasis" href="construction.php">Know More<span><img class="card-link-arrow"
                             src="./assets/services-page/read-blog-arrow.png" alt="" /></span></a>
                     </div>
                 </li>
@@ -110,7 +110,7 @@
                         </p>
                     </div>
                     <div class="card-button">
-                        <a class="card-link ftsz-16 bold-emphasis" href="#">Know More<span><img class="card-link-arrow"
+                        <a class="card-link ftsz-16 bold-emphasis" href="construction.php">Know More<span><img class="card-link-arrow"
                             src="./assets/services-page/read-blog-arrow.png" alt="" /></span></a>
                     </div>
                 </li>
