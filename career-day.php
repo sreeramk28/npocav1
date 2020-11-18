@@ -259,7 +259,7 @@
 
                 <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item ">
                             <p class="info">What a valuable gift to the people of India! NPOCA is a major force for the
                                 advancement of career services in this country and deserves the attention of all people
                                 who care about the future of India and its children.
@@ -269,17 +269,19 @@
                             <h5 class="person">Dr. Marilyn Maze</h5>
                             <p class="designation">Executive Director<br>Asia Pacific Career Development Association</p>
                         </div>
-                        <!-- <div class="carousel-item ">
-                            <p class="info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
-                                suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                        <div class="carousel-item active">
+                            <p class="info">A big thanks to NPOCA for extending support for our Annual Career Week - 'Making Informed Choices -2020'. 
+                            The event was action-packed with speakers of repute from an array of career fields. 
+                            They not only connected with our students, giving them new knowledge but also answered all their queries.
+                            A unique blend between academic research and industrial applications was seen for the very first time in this annual event. 
+                            The feedback from parents, students, and all other attendees has been really encouraging.
+                            Making Informed choices 2020 was a resounding success but this could not have been possible without the support of NPOCA.
                             </p>
-                            <img height="40px" width="40px" src="./assets/Ellipse 22.png" alt="">
-                            <h5 class="person">Another Person</h5>
-                            <p class="designation">Chief Executive Officer of NPOCA</p>
+                            <img height="40px" width="40px" src="./assets/careerday-page/Ellipse 22.png" alt="">
+                            <h5 class="person">Nidhi Aggarwal</h5>
+                            <p class="designation">School Counselor, Nirmal Bhartia School, Delhi</p>
                         </div>
-                        <div class="carousel-item ">
+                        <!--<div class="carousel-item ">
                             <p class="info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                                 nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                                 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
