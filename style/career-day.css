@@ -285,6 +285,11 @@
 
 
 /* Media-Queries */
+@media(max-width:980px) {
+    #testimonial-carousel .carousel-inner {
+        padding: 0 8rem;
+    }
+}
 
 @media(max-width:768px) {
     .program-left {
@@ -335,7 +340,8 @@
         left: 127px;
     }
     .immediate-call .dash1 {
-        top: -39px;
-        left: 116px;
+        top: -19px;
+        left: 147px;
     }
 }
+

@@ -21,8 +21,8 @@
 			<p class="contactus-heading mont-font semibold-emphasis text-center orangish">
 				Contact Us
 			</p>
-			<div class="text-center opensans-font ftsz-14" style="margin: 0 60px;">
-				If you have a question or a query a member of the team will always be happy to help. Feel free to contact us by email or telephone and we will be sure to get back to you as soon as possible.
+			<div class="text-center opensans-font ftsz-14" style="margin: 0 60px;padding:0 14vw">
+			If you have a question or a request, we will be happy to help. Feel free to contact us by email, WhatsApp, or telephone and we will get back to you at the earliest.
 			</div>
 			<br>
 			<div class="contact-boxes-wrap">

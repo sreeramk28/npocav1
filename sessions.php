@@ -21,7 +21,7 @@
 			<p class="sessions-heading mont-font semibold-emphasis text-center">
 				Sessions
 			</p>
-			<p id="session-desc" class="text-center opensans-font ftsz-14">
+			<p id="session-desc" class="text-center opensans-font ftsz-14" style="padding:0 14vw">
 			Engage with the finest professionals from industry and academia, to get an insiders perspective on career, growth opportunities and its future prospects. Learn, and get inspired.
 			</p>
 			<br>

@@ -5,9 +5,7 @@
 .services-desc {
     padding: 0 14vw;
 }
-.profile-cards {
-    justify-content: center;
-}
+
 .card-wrapper {
     display: flex;
     flex-direction: row;

@@ -25,7 +25,7 @@
         <h4 class="ftsz-24 mont-font semibold-emphasis text-center services-heading">Services</h4>
         <p class="ftsz-14 text-center my-3 services-desc">Comprehensive career services for schools, to help its students identify their talent, explore opportunities and make informed career decisions. Investing in tomorrow.</p>
         <div class="profile-cards text-center my-4">
-            <ul class="card-wrapper text-center" id="card-wrapper">
+            <ul class="card-wrapper text-center" >
                 <li class="card">
                     <div class="card-container">
                         <img class="card-pic" src="./assets/services-page/career-guidance.png" alt="" />
