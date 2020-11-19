@@ -96,8 +96,7 @@
 						<img src="assets/contact-page/whatsapp.svg" height="20" width="20">
 					</a>
 
-				</div>
-				
+				</div>	
 			</div>
 			<br>
 			<p style="color: #FFC13B; font-size: 18px;" class="mont-font medium-emphasis">

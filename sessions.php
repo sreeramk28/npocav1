@@ -21,9 +21,9 @@
 			<p class="sessions-heading mont-font semibold-emphasis text-center">
 				Sessions
 			</p>
-			<div class="text-center opensans-font ftsz-14">
-				Engage with industry professionals to get an insider's perspective on career, growth opportunities and its future. Expert Talks are sessions for students, parents & educators to explore the world of work and identify your career interests; these sessions are conducted by experts from the industry and academia. Each of them are the finest from their industry and provide for excellent role models for the young.
-			</div>
+			<p id="session-desc" class="text-center opensans-font ftsz-14">
+			Engage with the finest professionals from industry and academia, to get an insiders perspective on career, growth opportunities and its future prospects. Learn, and get inspired.
+			</p>
 			<br>
 			<div id="sessions-boxes-wrap" class="sessions-boxes-wrap">
 				

@@ -33,8 +33,14 @@
                             Planning and Guidance
                         </p>
                         <button class="button mt-4">
-                            <a class="ftsz-14 bold-emphasis" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScetEXHU7RUpXJmOQ0sqONQ_bhjPowBVgAA3KAjVKyPGPzMEw/viewform">Register Now <span><img height="10px" width="16px"
-                                        src="./assets/careerday-page/register-link-arrow.png" alt=""></span></a>
+                            <a class="ftsz-14 bold-emphasis" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScetEXHU7RUpXJmOQ0sqONQ_bhjPowBVgAA3KAjVKyPGPzMEw/viewform">Register Now 
+                            <span>
+                            <svg class="bi bi-arrow-right" width="16px" height="16px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"></path>
+                            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"></path>
+                            </svg>
+                            </span>
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -308,29 +314,85 @@
                     <h2 class="semibold-emphasis mont-font ftsz-26">For More Information</h2>
                     <p class="desc-info">Interested in conducting Career Day at your school or want to know more, get in
                         touch with us on</p>
-                    <ul class="box-wrapper mt-4">
-                        <li class="card text-center">
-                            <img height="36px" width="36px" src="./assets/careerday-page/phone.png" alt="">
-                            <h5 class="mont-font ftsz-16 bold-emphasis">Call Now</h5>
-                            <p class="info"><a href="tel:+91 85880 13322">+91 85880 13322</a></p>
-                        </li>
-                        <li class="card text-center">
-                            <img height="36px" width="36px" src="./assets/careerday-page/mail.png" alt="">
-                            <h5 class="mont-font ftsz-16 bold-emphasis">Mail Us</h5>
-                            <p class="info"><a href="mailto:arun@npoca.com">arun@npoca.com</a></p>
-                        </li>
-                        <li class="card text-center">
-                            <img height="36px" width="36px" src="./assets/careerday-page/whatsapp.png" alt="">
-                            <h5 class="mont-font ftsz-16 bold-emphasis">Join Us</h5>
-                            <p class="info"><a href="#">NPOCA Academic Group</a></p>
-                        </li>
-                    </ul>
+                    <div class="contact-boxes-wrap">
+                        <div class="contact-box">
+                            <img src="assets/contact-page/Building icon.svg" height="50" width="50">
+                            <table>
+                                <tr>
+                                    <td class="pdr-10">
+                                        <img src="assets/contact-page/pin  address.svg" height="20" width="20">	
+                                    </td>
+                                    <td>
+                                        <span class="opensans-font semibold-emphasis ftsz-12">
+                                            Noida, Uttar Pradesh, India
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pdr-10">
+                                        <img src="assets/contact-page/phone.svg" height="20" width="20">
+                                    </td>
+                                    <td>
+                                        <span class="opensans-font semibold-emphasis ftsz-12">
+                                            <a class="num-link" href="tel:+918588013322">
+                                                +91 85880 13322
+                                            </a>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="contact-box">
+                            <img src="assets/contact-page/Mail icon.svg" height="50" width="50">
+                            <table>
+                                <tr>
+                                    <td class="pdr-10">
+                                        <img src="assets/contact-page/teacher girl.svg" height="20" width="20">	
+                                    </td>
+                                    <td>
+                                        <span class="opensans-font semibold-emphasis ftsz-12 orangish">
+                                            <a href="mailto:sambhav@npoca.com" class="orangish">sambhav@npoca.com</a><br>
+                                        </span>
+                                        <span class="opensans-font semibold-emphasis ftsz-12" style="color: #666666">
+                                            (For schools only)
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pdr-10">
+                                        <img src="assets/contact-page/mail.svg" height="20" width="20">
+                                    </td>
+                                    <td>
+                                        <span class="opensans-font semibold-emphasis ftsz-12"> 
+                                            <a href="mailto:arun@npoca.com" class="orangish">arun@npoca.com</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="contact-box">
+                            <img src="assets/contact-page/group chat.svg" height="50" width="50">
+                            <p class="opensans-font semibold-emphasis ftsz-12" style="color: #666666">
+                                Join our Whatsapp Group
+                            </p>
+                            <p class="opensans-font semibold-emphasis ftsz-12">
+                                NPOCA Academic Group
+                            </p>
+                            <a class="join-button" href="https://wa.me/message/454W2XXUX4MQG1">
+                                <span class="mont-font bold-emphasis ftsz-14" style="margin-right: 12px;">
+                                    Join Now
+                                </span>
+                                <img src="assets/contact-page/whatsapp.svg" height="20" width="20">
+                            </a>
+
+                        </div>	
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- footer -->
+<!-- footer -->
     <?php require_once("includes/footersmall.php") ?>
     <!-- Scripts -->
     <script src="js/navbar.js" type="text/javascript"></script>

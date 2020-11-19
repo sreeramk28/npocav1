@@ -201,30 +201,86 @@
 .more-info .desc-info {
     padding: 0 14rem;
 }
-.more-info .box-wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
-.more-info .box-wrapper .card {
+
+.contact-boxes-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-box {
+    height: 220px;
+    width: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
-    height: 180px;
-    margin: 12px;
-    list-style: none;
-    border: none;
-    box-shadow: 4px 4px 16px 2px rgb(235, 235, 235);
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 3px 3px 5px 2px #d3d3d3;
 }
-.more-info .box-wrapper .card img {
-    margin: 1.6rem;
+.pdr-10 {
+    padding-right: 10px;
 }
-.more-info .box-wrapper .card .info a{
-    color: rgb(37,37,41);
+.contact-box > img {
+    margin-bottom: 10px;
 }
+.contact-box > p {
+    margin-bottom: 8px;
+}
+.contact-box td {
+    padding-bottom: 10px;
+}
+.orangish {
+    color: #FFA33E;
+}
+.orangish:link {
+    color: #FFA33E;
+}
+.orangish:visited {
+    color: #FFA33E;
+}
+.orangish:hover {
+    color: #FFA33E;
+}
+.orangish:active {
+    color: #FFA33E;
+}
+.join-button {
+    display: flex;
+    border: 0;
+    color: #000;
+    background-color: #FFC13B;
+    justify-content: center;
+    padding: 10px 23px;
+    outline: none;
+}
+.join-button:link {
+    color: #000;
+    text-decoration: none;
+}
+.join-button:visited {
+    color: #000;
+    text-decoration: none;
+}
+.join-button:hover {
+    color: #000;
+    text-decoration: none;
+}
+.join-button:active {
+    text-decoration: none;
+}
+.num-link {
+    color: #000;
+}
+.num-link:link {color: #000;}
+.num-link:visited {color: #000;}
+
+.itrst {
+    margin: 10px;
+}
+
+
 
 
 
