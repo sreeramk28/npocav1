@@ -283,7 +283,7 @@
                             The feedback from parents, students, and all other attendees has been really encouraging.
                             Making Informed choices 2020 was a resounding success but this could not have been possible without the support of NPOCA.
                             </p>
-                            <img height="40px" width="40px" src="./assets/careerday-page/Ellipse 22.png" alt="">
+                            <img height="40px" width="40px" src="./assets/careerday-page/nbs.jpg" alt="">
                             <h5 class="person">Nidhi Aggarwal</h5>
                             <p class="designation">School Counselor, Nirmal Bhartia School, Delhi</p>
                         </div>
