@@ -1,0 +1,61 @@
+.desc {
+    text-align: center;
+    padding: 0 14vw;
+}
+.recordings {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.card {
+    list-style: none;
+    height: 340px;
+    width: 270px;
+    margin: 16px;
+    box-shadow: 4px 4px 8px 2px rgb(224, 219, 219);
+}
+
+.card .detail {
+    text-align: left;
+}
+.detail .calander {
+    padding-right: 6px;
+    position: relative;
+}
+.detail .duration {
+    float: right;
+}
+.title {
+    color: #FFA33E;
+    text-align: left;
+}
+.footer {
+    text-align: left;
+    position: relative;
+    top: 30px;
+}
+.footer .save {
+    float: right;
+    position: relative;
+    top: -6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    .desc {
+        padding: 0;
+    }
+}
