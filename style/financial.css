@@ -1,0 +1,342 @@
+/* Front Banner */
+.financial-banner {
+    margin: 108px 0px 86px 0px;
+}
+#bse-logo {
+    padding-right: 18px;
+    border-right: 2px solid rgb(46, 45, 45);
+}
+#bse-name {
+    padding-left: 12px;
+}
+#dash {
+    height: 2px;
+    width: 40px;
+    background-color:  #5b5d5f;
+    position: relative;
+    top: -17px;
+    left: 156px;
+}
+.title {
+     font-size: 38px;
+     color: #FFA33E;
+}
+.financial-banner .desc {
+    width: 336px;
+}
+.button {
+    height: 36px;
+    width: 136px;
+    background-color: #1E2328;
+}
+.button a {
+    color: white;
+    text-decoration: none;
+}
+.financial-banner .right img {
+    width: 520px;
+    height: 400px;
+}
+
+/* Overview  */
+.overview {
+    background-color: #FFF8EB;
+    height: 500px;
+    overflow: visible;
+}
+.overview .right {
+    padding: 16px 190px 16px 16px;
+}
+.overview .left {
+    padding: 0px 16px 0px 190px;
+}
+#overview-img {
+    width: 400px;
+    height: 532px;
+    position: relative;
+    top: -16px;
+}
+.overview .know-more {
+    float: right;
+}
+
+/* Need */
+
+.need-overlay {
+    width: 100%;
+}
+.need-left, .need-right {
+    height: 300px;
+    width: 100vw;
+    padding: 0;
+}
+.need-left img  {
+    height: 100%;
+    width:  100%;
+    padding: 0;
+   
+}
+.need-right img {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+.need-left-content {
+    position: absolute;
+}
+.need-left-box {
+    position: absolute;
+    top: -235px;
+    left: 300px;
+}
+.need-left-img {
+    height: 147px !important;
+    width: 147px !important;
+    position: absolute;
+    top: 0px;
+    left: 11px;
+}
+.need-left-content .need-left-title {
+    position: absolute;
+    bottom: -196px;
+    left: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 178px;
+}
+.need-left .benefit {
+    left: 42px;
+}
+.need-right-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: fit-content;
+    transform: translate(-50%,-50%);
+    margin: 0.4rem;
+    padding: 18px;
+}
+.need-right li {
+    list-style-image: url("../assets/finance-page/tick.png");
+    list-style-position: outside;
+}
+/* Course Offerings  */
+.offering .desc {
+    padding: 0 14vw;
+}
+/* Program */
+
+.program-left {
+    border-right: 2px solid black;
+}
+
+/* Last-Section */
+.yellow {
+    color: #FFBD39;
+}
+
+#testimonial-carousel {
+    margin-top: 2rem;
+}
+
+#testimonial-carousel .carousel-inner {
+    padding: 0 14rem;
+}
+.carousel-control-prev, .carousel-control-next {
+    z-index: 0;
+} 
+
+.more-info .desc-info {
+    padding: 0 14rem;
+}
+
+
+.contact-boxes-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-box {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 3px 3px 5px 2px #d3d3d3;
+}
+.pdr-10 {
+    padding-right: 10px;
+}
+.contact-box > img {
+    margin-bottom: 10px;
+}
+.contact-box > p {
+    margin-bottom: 8px;
+}
+.contact-box td {
+    padding-bottom: 10px;
+}
+.orangish {
+    color: #FFA33E;
+}
+.orangish:link {
+    color: #FFA33E;
+}
+.orangish:visited {
+    color: #FFA33E;
+}
+.orangish:hover {
+    color: #FFA33E;
+}
+.orangish:active {
+    color: #FFA33E;
+}
+.join-button {
+    display: flex;
+    border: 0;
+    color: #000;
+    background-color: #FFC13B;
+    justify-content: center;
+    padding: 10px 23px;
+    outline: none;
+}
+.join-button:link {
+    color: #000;
+    text-decoration: none;
+}
+.join-button:visited {
+    color: #000;
+    text-decoration: none;
+}
+.join-button:hover {
+    color: #000;
+    text-decoration: none;
+}
+.join-button:active {
+    text-decoration: none;
+}
+.num-link {
+    color: #000;
+}
+.num-link:link {color: #000;}
+.num-link:visited {color: #000;}
+
+.itrst {
+    margin: 10px;
+}
+
+
+
+
+
+
+@media(max-width:1172px) {
+    .overview .left {
+        display: none;
+    }
+    .overview {
+        height: 660px;
+    }
+    .overview .right {
+        padding-right: 16px;
+    }
+    .need-left-box {
+        left: 108px;
+    }
+}
+
+
+@media(max-width:992px) {
+    .overview {
+        height: 660px;
+    }
+    #overview-img {
+        width: 380px;
+        height: 532px;
+        position: relative;
+        top: -32px;
+    }
+    .overview .right {
+        padding: 16px 16px 16px 16px;
+    }
+    .overview .left {
+        padding: 16px 16px 16px 80px;
+    }
+    #testimonial-carousel .carousel-inner {
+        padding: 0 8rem;
+    }
+}
+
+
+@media(max-width:768px) {
+    .overview {
+        height: 660px;
+    }
+    .overview .right {
+        padding: 16px 16px 16px 16px;
+    }
+    .overview .left {
+        padding: 16px 16px 16px 30px;
+    }
+    .offering .desc {
+        padding: 0 ;
+    }
+    .need-left, .need-right {
+        height: 360px;
+        width: 100vw;
+        padding: 0;
+    }
+    .need-left-box {
+        position: absolute;
+        top: -260px;
+        left: 118px;
+    }
+    .need-right-content {
+        padding: 0px;
+    }
+    .program-left {
+        border-right: none;
+        margin-bottom: 16px;
+    }
+    #testimonial-carousel .carousel-inner {
+        padding: 0 6rem;
+    }
+    .more-info .desc-info {
+        padding: 0 4rem;
+    }
+}
+
+
+@media(max-width:576px) {
+    .financial-banner .right img {
+        margin-left: -26px;
+        width: 320px;
+        height: 280px;
+    }
+    .title {
+        font-size: 28px;
+   }
+    .financial-banner .desc {
+        width: 210px;
+    }
+    .overview {
+        height: 600px;
+    }
+    .need-left-box {
+        position: absolute;
+        top: -260px;
+        left: 118px;
+    }
+    #testimonial-carousel .carousel-inner {
+        padding: 0 1rem;
+    }
+    .more-info .desc-info {
+        padding: 0 0rem;
+    }
+
+    
+}
