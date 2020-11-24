@@ -17,11 +17,23 @@
 	font-weight: 700;
 }
 
+.ftsz-32 {
+	font-size: 32px;
+}
 .ftsz-28 {
 	font-size: 28px;
 }
+.ftsz-26 {
+	font-size: 26px;
+}
 .ftsz-24 {
 	font-size: 24px;
+}
+.ftsz-22 {
+	font-size: 22px;
+}
+.ftsz-20 {
+	font-size: 20px;
 }
 .ftsz-18 {
 	font-size: 18px;

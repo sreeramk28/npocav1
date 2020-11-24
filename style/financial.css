@@ -125,6 +125,10 @@
 .offering .desc {
     padding: 0 14vw;
 }
+.course .content {
+    width: 260px;
+    margin: 0 auto;
+}
 /* Program */
 
 .program-left {
