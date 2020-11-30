@@ -5,6 +5,10 @@
 .services-desc {
     padding: 0 14vw;
 }
+.profile-cards {
+    max-width: 1280px;
+    margin: 0 auto;
+}
 
 .card-wrapper {
     display: flex;

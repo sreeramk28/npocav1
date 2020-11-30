@@ -265,7 +265,7 @@
 
                 <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item ">
+                        <div class="carousel-item active">
                             <p class="info">What a valuable gift to the people of India! NPOCA is a major force for the
                                 advancement of career services in this country and deserves the attention of all people
                                 who care about the future of India and its children.
@@ -275,28 +275,25 @@
                             <h5 class="person">Dr. Marilyn Maze</h5>
                             <p class="designation">Executive Director<br>Asia Pacific Career Development Association</p>
                         </div>
-                        <div class="carousel-item active">
-                            <p class="info">A big thanks to NPOCA for extending support for our Annual Career Week - 'Making Informed Choices -2020'. 
-                            The event was action-packed with speakers of repute from an array of career fields. 
-                            They not only connected with our students, giving them new knowledge but also answered all their queries.
-                            A unique blend between academic research and industrial applications was seen for the very first time in this annual event. 
-                            The feedback from parents, students, and all other attendees has been really encouraging.
-                            Making Informed choices 2020 was a resounding success but this could not have been possible without the support of NPOCA.
+                        <div class="carousel-item">
+                            <p class="info">
+                            A very useful and informative session from Mr. Aditya Berlia. This will certainly help students to choose a career of their choice, in which they can excel.
+
                             </p>
-                            <img style="border-radius: 50%;" height="40px" width="40px" src="./assets/careerday-page/nbs.jpg" alt="">
-                            <h5 class="person">Nidhi Aggarwal</h5>
-                            <p class="designation">School Counselor, Nirmal Bhartia School, Delhi</p>
+                            <img style="border-radius: 50%;" height="60px" width="60px" src="./assets/careerday-page/b-mohanty.jpg" alt="">
+                            <h5 class="person">B. Mohanty</h5>
+                            <p class="designation">Principal - DPS Pakur</p>
                         </div>
-                        <!--<div class="carousel-item ">
-                            <p class="info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-                                nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
-                                suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                        <div class="carousel-item">
+                            <p class="info">
+                            Your session on career development was awesome and highly informative. Looking forward for such useful sessions in future too.
                             </p>
-                            <img height="40px" width="40px" src="./assets/Ellipse 22.png" alt="">
-                            <h5 class="person">Another One</h5>
-                            <p class="designation">Chief Executive Officer of NPOCA</p>
-                        </div> -->
+                            <img style="border-radius: 50%;" height="60px" width="60px" src="./assets/careerday-page/Ellipse 22.png" alt="">
+                            <h5 class="person">Meenakshi K.</h5>
+                            <p class="designation">Principal - Gill Adarsh MHSS, Chennai</p>
+                        </div>
+                       
+                        </div> 
                         <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"><img src="./assets/careerday-page/Path 370.png"
                                     alt=""></span>
