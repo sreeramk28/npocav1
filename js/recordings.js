@@ -1,7 +1,6 @@
 $(document).ready(function () {
     const API_KEY = "AIzaSyD1DAqaE2BipNeftNH18XS6RchSeoiCbUU";
     const maxResult = 9;
-    const URL = "https://youtube.googleapis.com/youtube/v3/playlistItems?";
     const playList1 = "PLw9gTj1tyYCoDzGpqVieGoH0ydyu5kvwJ";
     const playList2 = "PLw9gTj1tyYCqqun9aM_GmDDOooGU13CB0";
     const playList3 = "PLw9gTj1tyYCriBpSwOBXb94vaZviATw8J";

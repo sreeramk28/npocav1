@@ -39,7 +39,7 @@
                     <p class="ftsz-20 semibold-emphasis ">Developing money management skills amongst youth</p>
                     <p class="ftsz-14 desc">The fundamentals of managing money are taught to students through financial
                         literacy: budgeting, saving, debt, investing, and lending.</p>
-                    <button class="button mt-4">
+                    <button class="button mt-2">
                         <a class="ftsz-14 bold-emphasis" target="_blank" href="/">Register Now
                             <span>
                                 <svg class="bi bi-arrow-right" width="16px" height="16px" viewBox="0 0 16 16"

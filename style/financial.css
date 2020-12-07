@@ -1,6 +1,6 @@
 /* Front Banner */
 .financial-banner {
-    margin: 108px 0px 86px 0px;
+    margin: 108px 34px 86px 34px;
 }
 #bse-logo {
     padding-right: 18px;
@@ -35,7 +35,7 @@
 }
 .financial-banner .right img {
     width: 520px;
-    height: 400px;
+    height: 360px;
 }
 
 /* Overview  */
@@ -118,8 +118,11 @@
     padding: 18px;
 }
 .need-right li {
-    list-style-image: url("../assets/finance-page/tick.png");
+    /* list-style-image: url("../assets/finance-page/tick.png"); */
     list-style-position: outside;
+}
+.need-right li::marker {
+    text-align: center;
 }
 /* Course Offerings  */
 .offering .desc {
@@ -255,6 +258,9 @@
 
 
 @media(max-width:992px) {
+    .financial-banner .right img {
+        height: 320px;
+    }
     .overview {
         height: 660px;
     }
@@ -316,11 +322,15 @@
 
 
 @media(max-width:576px) {
+    .financial-banner {
+        margin: 108px 0px 86px 0px;
+    }
     .financial-banner .right img {
         margin-left: -26px;
         width: 320px;
         height: 280px;
     }
+    
     .title {
         font-size: 28px;
    }
@@ -334,6 +344,15 @@
         position: absolute;
         top: -260px;
         left: 118px;
+    }
+    .need-left-img {
+        left: 0px;
+    }
+    .need-left-content .need-left-title {
+        left: -2px;
+    }
+    .need-left-content .benefit {
+        left: 35px;
     }
     #testimonial-carousel .carousel-inner {
         padding: 0 1rem;
