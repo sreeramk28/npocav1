@@ -1,6 +1,6 @@
 /* Front Banner */
 .financial-banner {
-    margin: 108px 34px 86px 34px;
+    margin: 108px 0px 86px 0px;
 }
 #bse-logo {
     padding-right: 18px;
@@ -14,8 +14,8 @@
     width: 40px;
     background-color:  #5b5d5f;
     position: relative;
-    top: -17px;
-    left: 156px;
+    top: -14px;
+    left: 130px;
 }
 .title {
      font-size: 38px;
@@ -39,26 +39,21 @@
 }
 
 /* Overview  */
+
 .overview {
-    background-color: #FFF8EB;
-    height: 500px;
-    overflow: visible;
+    margin: 28px 0;
+}
+.overview img {
+    height: 700px;
 }
 .overview .right {
-    padding: 16px 190px 16px 16px;
-}
-.overview .left {
-    padding: 0px 16px 0px 190px;
-}
-#overview-img {
-    width: 400px;
-    height: 532px;
-    position: relative;
-    top: -16px;
+    background-color: #FFF8EB;
+    padding: 90px 40px;
 }
 .overview .know-more {
     float: right;
 }
+
 
 /* Need */
 
@@ -126,7 +121,7 @@
 }
 /* Course Offerings  */
 .offering .desc {
-    padding: 0 14vw;
+    padding: 0 68px;
 }
 .course .content {
     width: 260px;
@@ -242,7 +237,7 @@
 
 
 @media(max-width:1172px) {
-    .overview .left {
+    /* .overview .left {
         display: none;
     }
     .overview {
@@ -250,7 +245,7 @@
     }
     .overview .right {
         padding-right: 16px;
-    }
+    } */
     .need-left-box {
         left: 108px;
     }
@@ -261,7 +256,7 @@
     .financial-banner .right img {
         height: 320px;
     }
-    .overview {
+    /* .overview {
         height: 660px;
     }
     #overview-img {
@@ -275,7 +270,7 @@
     }
     .overview .left {
         padding: 16px 16px 16px 80px;
-    }
+    } */
     #testimonial-carousel .carousel-inner {
         padding: 0 8rem;
     }
@@ -283,7 +278,7 @@
 
 
 @media(max-width:768px) {
-    .overview {
+    /* .overview {
         height: 660px;
     }
     .overview .right {
@@ -291,7 +286,7 @@
     }
     .overview .left {
         padding: 16px 16px 16px 30px;
-    }
+    } */
     .offering .desc {
         padding: 0 ;
     }
@@ -336,9 +331,6 @@
    }
     .financial-banner .desc {
         width: 210px;
-    }
-    .overview {
-        height: 600px;
     }
     .need-left-box {
         position: absolute;

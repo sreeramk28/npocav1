@@ -21,63 +21,62 @@
     <!--header -->
     <?php require_once("includes/navbar.php"); ?>
     <div class="page-wrapper opensans-font">
-        <div class="financial-banner row">
-            <div class="right col-lg-6 text-center order-lg-2">
-                <img src="./assets/finance-page/financial banner.svg" alt="">
-            </div>
-            <div class=" left col-lg-6 order-lg-1">
-                <div class="content-box">
-                    <p class="ftsz-16 bold-emphasis" style="color: #5b5d5f;">Collaboration with
-                    <div id="dash"></div>
-                    </p>
-                    <p class="ftsz-32 bold-emphasis"><span><img id="bse-logo" src="./assets/finance-page/BSE Logo.png"
-                                alt=""></span>
-                        <span id="bse-name">BSE <span class="ftsz-16" style="color: #1B2F3F;">(formerly Bombay Stock
-                                Exchange)</span></span>
-                    </p>
-                    <p class="title mont-font semibold-emphasis">Financial Literacy Program</p>
-                    <p class="ftsz-20 semibold-emphasis ">Developing money management skills amongst youth</p>
-                    <p class="ftsz-14 desc">The fundamentals of managing money are taught to students through financial
-                        literacy: budgeting, saving, debt, investing, and lending.</p>
-                    <button class="button mt-2">
-                        <a class="ftsz-14 bold-emphasis" target="_blank" href="/">Register Now
-                            <span>
-                                <svg class="bi bi-arrow-right" width="16px" height="16px" viewBox="0 0 16 16"
-                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z">
-                                    </path>
-                                    <path fill-rule="evenodd"
-                                        d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"></path>
-                                </svg>
-                            </span>
-                        </a>
-                    </button>
+        <div class="container">
+            <div class="financial-banner row">
+                <div class=" left col-lg-6 ">
+                        <div class="content-box">
+                            <p class="ftsz-12 bold-emphasis" style="color: #5b5d5f;">Collaboration with
+                            <div id="dash"></div>
+                            </p>
+                            <p class="ftsz-32 bold-emphasis"><span><img id="bse-logo" src="./assets/finance-page/BSE Logo.png"
+                                        alt=""></span>
+                                <span id="bse-name">BSE <span class="ftsz-12" style="color: #1B2F3F;">(formerly Bombay Stock
+                                        Exchange)</span></span>
+                            </p>
+                            <p class="title mont-font semibold-emphasis">Financial Literacy Program</p>
+                            <p class="ftsz-20 semibold-emphasis ">Developing money management skills amongst youth</p>
+                            <p class="ftsz-14 desc">The fundamentals of managing money are taught to students through financial
+                                literacy: budgeting, saving, debt, investing, and lending.</p>
+                            <button class="button mt-2">
+                                <a class="ftsz-14 bold-emphasis" target="_blank" href="/">Register Now
+                                    <span>
+                                        <svg class="bi bi-arrow-right" width="16px" height="16px" viewBox="0 0 16 16"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z">
+                                            </path>
+                                            <path fill-rule="evenodd"
+                                                d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"></path>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </button>
+                        </div>
                 </div>
+                <div class="right col-lg-6 text-center ">
+                    <img src="./assets/finance-page/financial banner.svg" alt="">
+                </div> 
             </div>
-        </div>
-    </div>
-    <div class="overview row mx-0 my-5 align-items-center justify-content-center my-5">
-        <div class=" left col-md-6 align-items-center ">
-            <img id="overview-img" src="./assets/finance-page/overview-2.png" alt="">
-        </div>
-        <div class=" right col-md-6">
-            <span id="start-quote" class="ftsz-32 bold-emphasis">"</span>
-            <p class="ftsz-16">As a country, we've seen where the lack of education in personal finance can lead. Every
-                day, millions of
-                Indians are struggling with their money, living month after month and relying on credit cards for
-                necessities, only to wind up massively in debt and short of hope. Beyond that, many Indians find that
-                because of their own loan debt, large car payments, and general lack of financial planning, they do not
-                buy houses, save for retirement, or save for their child's college fund. But it doesn't need to be like
-                that. If financial literacy had been taught earlier, in school, a lot of the money problems Indians face
-                could have been avoided. That's why we think that, as part of their school curriculum, more schools
-                should offer financial literacy courses.</p>
-            <span id="end-quote" class="ftsz-32 bold-emphasis" style="float: right;">"</span>
-            <br>
-            <br>
-            <button class="button know-more">
-                <a class="ftsz-14 bold-emphasis" target="_blank" href="#">Know More </a>
-            </button>
+            <div class="overview row justify-content-center my-5">
+                    <div class="left col-md-4 d-none d-lg-block ">
+                        <img height="520px" width="360px" src="./assets/finance-page/overview-2.png" alt="">
+                    </div>
+                    <div class="right col-md-8">
+                        <p class="mont-font semibold-emphasis ftsz-28 align-self-center">Overview</p>
+                        <p>As a country, we've seen where the lack of education in personal finance can lead. Every
+                            day, millions of
+                            Indians are struggling with their money, living month after month and relying on credit cards for
+                            necessities, only to wind up massively in debt and short of hope.<br><br> Beyond that, many Indians find that
+                            because of their own loan debt, large car payments, and general lack of financial planning, they do not
+                            buy houses, save for retirement, or save for their child's college fund. But it doesn't need to be like
+                            that.<br><br>If financial literacy had been taught earlier, in school, a lot of the money problems Indians face
+                            could have been avoided. <br><br>That's why we think that, as part of their school curriculum, more schools
+                            should offer financial literacy courses.<br><br><br></p>
+                        <button class="button know-more">
+                            <a class="ftsz-14 bold-emphasis" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScetEXHU7RUpXJmOQ0sqONQ_bhjPowBVgAA3KAjVKyPGPzMEw/viewform">Know More </a>
+                        </button>
+                    </div>
+            </div>
         </div>
     </div>
     <div class="need-overlay row mx-0 my-5 opensans-font">
@@ -110,6 +109,7 @@
         </div>
     </div>
     <div class="page-wrapper opensans-font my-5 text-center offering">
+        <div class="container">
         <p class="ftsz-26 mont-font semibold-emphasis">This course includes</p>
         <p class="ftsz-16 desc">Lorem ipsum dolor sit amet, consectetuer adipiLorem ipsum dolor sit
             amet, consectetuer
@@ -149,6 +149,7 @@
                     consectetuer adipiLorem ipsum dolor sit amet, consectetuer adipi</p>
                 </div>
             </div>
+        </div>
         </div>
     </div>
     <div class="need-overlay row mx-0 my-5 opensans-font">
